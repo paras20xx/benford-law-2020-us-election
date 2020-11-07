@@ -73,7 +73,7 @@ const fs = require('fs');
 const path = require('path');
 
 const width = 1000;
-const height = 600;
+const height = 500;
 const chartCallback = (ChartJS) => {
 
     // Global config example: https://www.chartjs.org/docs/latest/configuration/
