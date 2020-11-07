@@ -1,0 +1,31 @@
+{
+  "name": "benford-law-2020-us-election",
+  "version": "1.0.0",
+  "description": "Verifying compliance of 2020 US election data against Benford's Law",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paras20xx/benford-law-2020-us-election.git"
+  },
+  "keywords": [
+    "2020",
+    "US",
+    "USA",
+    "election",
+    "data",
+    "Benford",
+    "Benford's",
+    "Law",
+    "verify",
+    "compliance"
+  ],
+  "author": "Priyank Parashar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/paras20xx/benford-law-2020-us-election/issues"
+  },
+  "homepage": "https://github.com/paras20xx/benford-law-2020-us-election#readme"
+}
