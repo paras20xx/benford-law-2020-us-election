@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "copy-files-from-to": "copy-files-from-to",
+    "process-dumped-data": "./scripts/process-dumped-data.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -30,6 +31,7 @@
   },
   "homepage": "https://github.com/paras20xx/benford-law-2020-us-election#readme",
   "dependencies": {
-    "copy-files-from-to": "^3.2.0"
+    "copy-files-from-to": "^3.2.0",
+    "csvtojson": "^2.0.10"
   }
 }
