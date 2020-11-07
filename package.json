@@ -32,6 +32,8 @@
   },
   "homepage": "https://github.com/paras20xx/benford-law-2020-us-election#readme",
   "dependencies": {
+    "chart.js": "^2.9.4",
+    "chartjs-node-canvas": "^3.0.6",
     "copy-files-from-to": "^3.2.0",
     "csvtojson": "^2.0.10"
   }
