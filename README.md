@@ -22,3 +22,6 @@ npm start # This would generate graphs from the processed data
 
 ## Milwaukee, Wisconsin
 ![Milwaukee](./dump/milwaukee/vote-count/milwaukee-graph.png)
+
+## Nebraska
+![Nebraska](./dump/nebraska/vote-count/nebraska-graph.png)
