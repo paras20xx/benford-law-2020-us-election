@@ -4,6 +4,7 @@
   "description": "Verifying compliance of 2020 US election data against Benford's Law",
   "main": "index.js",
   "scripts": {
+    "copy-files-from-to": "copy-files-from-to",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -27,5 +28,8 @@
   "bugs": {
     "url": "https://github.com/paras20xx/benford-law-2020-us-election/issues"
   },
-  "homepage": "https://github.com/paras20xx/benford-law-2020-us-election#readme"
+  "homepage": "https://github.com/paras20xx/benford-law-2020-us-election#readme",
+  "dependencies": {
+    "copy-files-from-to": "^3.2.0"
+  }
 }

@@ -1,0 +1,8 @@
+* Go to https://county.milwaukee.gov/EN/County-Clerk/Off-Nav/Election-Results/Election-Results-Fall-2020
+* Go to Voters and Ballots ...
+* Click on Expand / Collapse Totals by Wards
+* Apply the following CSS
+      #scrollTop {
+          display: none !important;
+      }
+* Take screenshot with ScreenShot Capture & Editor Tool (https://chrome.google.com/webstore/detail/screenshot-capture-editor/haiidfhfnmfmicpakjjkibpcdoolnbbo)
