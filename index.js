@@ -14,6 +14,13 @@ const converter_3 = require('./converters/converter_3.js');
 
 const configsForLocations = [
     {
+        jsonFilePath: './dump/milwaukee/vote-count/milwaukee.json',
+        fieldsToDelete: ['field1', 'field8'],
+        outputGraphPath: path.join(__dirname, 'dump', 'milwaukee', 'vote-count', 'milwaukee-graph.png')
+    },
+
+
+    {
         mapJson: {
             input: './dump/chicago/vote-count/chicago_converted.json',
             mappers: [
@@ -53,20 +60,15 @@ const configsForLocations = [
         },
         jsonFilePath: './dump/chicago/vote-count/chicago.json',
         fieldsToDelete: ['field1'],
+        limitCandidates: 3,
         outputGraphPath: path.join(__dirname, 'dump', 'chicago', 'vote-count', 'chicago-graph.png')
-    },
-
-
-    {
-        jsonFilePath: './dump/milwaukee/vote-count/milwaukee.json',
-        fieldsToDelete: ['field1', 'field8'],
-        outputGraphPath: path.join(__dirname, 'dump', 'milwaukee', 'vote-count', 'milwaukee-graph.png')
     },
 
 
     {
         jsonFilePath: './dump/nebraska/vote-count/nebraska.json',
         fieldsToDelete: ['County'],
+        limitCandidates: 2,
         outputGraphPath: path.join(__dirname, 'dump', 'nebraska', 'vote-count', 'nebraska-graph.png')
     },
 
@@ -187,11 +189,15 @@ const configsForLocations = [
             output: './dump/georgia/vote-count/georgia-provisional-votes.json'
         },
         jsonFilePath: './dump/georgia/vote-count/georgia-provisional-votes.json',
+        limitCandidates: 3,
         outputGraphPath: path.join(__dirname, 'dump', 'georgia', 'vote-count', 'georgia-provisional-votes-graph.png')
     }
 ];
 
+const base = 10;
+
 for (const configForLocation of configsForLocations) {
+    const limitCandidates = configForLocation.limitCandidates || Infinity;
     if (configForLocation.mapJson) {
         let inputJson = require(configForLocation.mapJson.input);
 
@@ -274,12 +280,14 @@ for (const configForLocation of configsForLocations) {
             contestants[contestant]++;
         }
     }
-    const contestantsArray = Object.keys(contestants);
+    let contestantsArray = Object.keys(contestants);
+    if (limitCandidates) {
+        contestantsArray = contestantsArray.slice(0, limitCandidates);
+    }
 
     console.log('\nContestants and the instances of their entries (their count should all be the same):');
     console.log(contestants);
 
-    const base = 10;
     const benfordDistribution = {
         '_0': 0,
     };
@@ -330,7 +338,7 @@ for (const configForLocation of configsForLocations) {
     const canvasRenderService = new CanvasRenderService(width, height, chartCallback);
 
     // https://github.com/davidbau/seedrandom
-    const seededRandom = new seedrandom('this-is-a-seed-string_1');
+    const seededRandom = new seedrandom('this-is-a-seed-string_1000');
 
     // https://stackoverflow.com/questions/23095637/how-do-you-get-random-rgb-in-javascript/23095818#23095818
     function random_rgba() {
