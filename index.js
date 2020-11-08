@@ -327,8 +327,8 @@ for (let base = fromBase; base <= toBase; base++) {
         console.log(distributions);
         console.log('');
 
-        const width = 1000;
-        const height = 500;
+        const width = 838;
+        const height = 419;
         const chartCallback = (ChartJS) => {
 
             // Global config example: https://www.chartjs.org/docs/latest/configuration/
