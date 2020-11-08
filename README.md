@@ -23,5 +23,28 @@ npm start # This would generate graphs from the processed data
 ## Milwaukee, Wisconsin
 ![Milwaukee](./dump/milwaukee/vote-count/milwaukee-graph.png)
 
+## Chicago, Illinois
+![Chicago](./dump/chicago/vote-count/chicago-graph.png)
+
 ## Nebraska
 ![Nebraska](./dump/nebraska/vote-count/nebraska-graph.png)
+
+## Michigan
+![Michigan](./dump/michigan/vote-count/michigan-graph.png)
+
+## Colorado
+![Colorado](./dump/colorado/vote-count/colorado-election-day-votes-graph.png)
+
+## Georgia
+
+### Georgia - Election day votes
+![Georgia - Election day votes](./dump/georgia/vote-count/georgia-election-day-votes-graph.png)
+
+### Georgia - Absentee by mail votes
+![Georgia - Absentee by mail votes](./dump/georgia/vote-count/georgia-absentee-by-mail-votes-graph.png)
+
+### Georgia - Advanced voting votes
+![Georgia - Advanced voting votes](./dump/georgia/vote-count/georgia-advanced-voting-votes-graph.png)
+
+### Georgia - Provisional votes
+![Georgia - Provisional votes](./dump/georgia/vote-count/georgia-provisional-votes-graph.png)

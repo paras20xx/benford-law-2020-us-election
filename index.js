@@ -7,24 +7,235 @@ const { CanvasRenderService } = require('chartjs-node-canvas');
 
 const seedrandom = require('./utils/seedrandom/seedrandom.js');
 
+const converter_1 = require('./converters/converter_1.js');
+const converter_2 = require('./converters/converter_2.js');
+
 const configsForLocations = [
     {
+        mapJson: {
+            input: './dump/chicago/vote-count/chicago_converted.json',
+            mappers: [
+                {
+                    filterOutRowsWithoutField: 'field14'
+                },
+                {
+                    filterInRowsWithNumberLikeData: 'field2'
+                },
+                {
+                    filterInRowsWithNumberLikeData: 'Chicago Board of Election Commissioners'
+                },
+                {
+                    fieldsToDelete: [
+                        'Chicago Board of Election Commissioners',
+                        'field4',
+                        'field6',
+                        'field8',
+                        'field10',
+                        'field12',
+                        'field14'
+                    ]
+                },
+                {
+                    renameFields: [
+                        { from: 'field2', to: 'Votes Casted' },
+                        { from: 'field3', to: 'Biden' },
+                        { from: 'field5', to: 'Trump' },
+                        { from: 'field7', to: 'Hawkins' },
+                        { from: 'field9', to: 'Riva' },
+                        { from: 'field11', to: 'Carroll' },
+                        { from: 'field13', to: 'Jorgensen' },
+                    ]
+                }
+            ],
+            output: './dump/chicago/vote-count/chicago.json'
+        },
+        jsonFilePath: './dump/chicago/vote-count/chicago.json',
+        fieldsToDelete: ['field1'],
+        outputGraphPath: path.join(__dirname, 'dump', 'chicago', 'vote-count', 'chicago-graph.png')
+    },
+    {
         jsonFilePath: './dump/milwaukee/vote-count/milwaukee.json',
+        fieldsToDelete: ['field1', 'field8'],
         outputGraphPath: path.join(__dirname, 'dump', 'milwaukee', 'vote-count', 'milwaukee-graph.png')
     },
     {
         jsonFilePath: './dump/nebraska/vote-count/nebraska.json',
+        fieldsToDelete: ['County'],
         outputGraphPath: path.join(__dirname, 'dump', 'nebraska', 'vote-count', 'nebraska-graph.png')
+    },
+
+
+    {
+        mapJson: {
+            input: './dump/michigan/vote-count/michigan_parsing.json',
+            mappers: [
+                {
+                    converter: 'converter_2',
+                    options: {
+                        limitCandidates: 2
+                    }
+                }
+            ],
+            output: './dump/michigan/vote-count/michigan.json'
+        },
+        jsonFilePath: './dump/michigan/vote-count/michigan.json',
+        outputGraphPath: path.join(__dirname, 'dump', 'michigan', 'vote-count', 'michigan-graph.png')
+    },
+
+    {
+        mapJson: {
+            input: './dump/colorado/vote-count/colorado_parsing.json',
+            mappers: [
+                {
+                    converter: 'converter_1',
+                    options: {
+                        voteTypeIndex: 0,
+                        limitCandidates: 4
+                    }
+                }
+            ],
+            output: './dump/colorado/vote-count/colorado-election-day-votes.json'
+        },
+        jsonFilePath: './dump/colorado/vote-count/colorado-election-day-votes.json',
+        outputGraphPath: path.join(__dirname, 'dump', 'colorado', 'vote-count', 'colorado-election-day-votes-graph.png')
+    },
+
+
+    {
+        mapJson: {
+            input: './dump/georgia/vote-count/georgia_parsing.json',
+            mappers: [
+                {
+                    converter: 'converter_1',
+                    options: {
+                        voteTypeIndex: 0
+                    }
+                }
+            ],
+            output: './dump/georgia/vote-count/georgia-election-day-votes.json'
+        },
+        jsonFilePath: './dump/georgia/vote-count/georgia-election-day-votes.json',
+        outputGraphPath: path.join(__dirname, 'dump', 'georgia', 'vote-count', 'georgia-election-day-votes-graph.png')
+    },
+    {
+        mapJson: {
+            input: './dump/georgia/vote-count/georgia_parsing.json',
+            mappers: [
+                {
+                    converter: 'converter_1',
+                    options: {
+                        voteTypeIndex: 1
+                    }
+                }
+            ],
+            output: './dump/georgia/vote-count/georgia-absentee-by-mail-votes.json'
+        },
+        jsonFilePath: './dump/georgia/vote-count/georgia-absentee-by-mail-votes.json',
+        outputGraphPath: path.join(__dirname, 'dump', 'georgia', 'vote-count', 'georgia-absentee-by-mail-votes-graph.png')
+    },
+    {
+        mapJson: {
+            input: './dump/georgia/vote-count/georgia_parsing.json',
+            mappers: [
+                {
+                    converter: 'converter_1',
+                    options: {
+                        voteTypeIndex: 2
+                    }
+                }
+            ],
+            output: './dump/georgia/vote-count/georgia-advanced-voting-votes.json'
+        },
+        jsonFilePath: './dump/georgia/vote-count/georgia-advanced-voting-votes.json',
+        outputGraphPath: path.join(__dirname, 'dump', 'georgia', 'vote-count', 'georgia-advanced-voting-votes-graph.png')
+    },
+    {
+        mapJson: {
+            input: './dump/georgia/vote-count/georgia_parsing.json',
+            mappers: [
+                {
+                    converter: 'converter_1',
+                    options: {
+                        voteTypeIndex: 2
+                    }
+                }
+            ],
+            output: './dump/georgia/vote-count/georgia-provisional-votes.json'
+        },
+        jsonFilePath: './dump/georgia/vote-count/georgia-provisional-votes.json',
+        outputGraphPath: path.join(__dirname, 'dump', 'georgia', 'vote-count', 'georgia-provisional-votes-graph.png')
     }
 ];
 
 for (const configForLocation of configsForLocations) {
+    if (configForLocation.mapJson) {
+        let inputJson = require(configForLocation.mapJson.input);
+
+        for (const mapper of configForLocation.mapJson.mappers) {
+            if (mapper.filterOutRowsWithoutField) {
+                inputJson = inputJson.filter(function (entry) {
+                    if (entry[mapper.filterOutRowsWithoutField]) {
+                        return true;
+                    }
+                    return false;
+                });
+            }
+            if (mapper.filterInRowsWithNumberLikeData) {
+                inputJson = inputJson.filter(function (entry) {
+                    if (!isNaN(parseInt(entry[mapper.filterInRowsWithNumberLikeData], 10))) {
+                        return true;
+                    }
+                    return false;
+                });
+            }
+            if (mapper.fieldsToDelete) {
+                inputJson = inputJson.map(function (item) {
+                    for (const fieldToDelete of mapper.fieldsToDelete) {
+                        delete item[fieldToDelete];
+                    }
+                    return item;
+                });
+            }
+            if (mapper.renameFields) {
+                inputJson = inputJson.map(function (item) {
+                    for (const renameField of mapper.renameFields) {
+                        item[renameField.to] = item[renameField.from];
+                        delete item[renameField.from];
+                    }
+                    return item;
+                });
+            }
+            if (mapper.converter === 'converter_1') {
+                inputJson = converter_1(inputJson, mapper.options);
+            } else if (mapper.converter === 'converter_2') {
+                inputJson = converter_2(inputJson, mapper.options);
+            }
+        }
+
+        let str = '';
+
+        str += '[\n';
+        const arr = [];
+        for (const entry of inputJson) {
+            arr.push(JSON.stringify(entry));
+        }
+        str += arr.join(',\n');
+        str += '\n]';
+
+        fs.writeFileSync(
+            path.resolve(__dirname, configForLocation.mapJson.output),
+            str
+        );
+    }
+
     let voteCountEntriesForLocation = require(configForLocation.jsonFilePath);
 
     voteCountEntriesForLocation = voteCountEntriesForLocation.map(function (item) {
-        delete item['field1'];
-        delete item['field8'];
-        delete item['County'];
+        if (configForLocation.fieldsToDelete) {
+            for (const fieldToDelete of configForLocation.fieldsToDelete) {
+                delete item[fieldToDelete];
+            }
+        }
         return item;
     });
 

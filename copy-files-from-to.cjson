@@ -1,5 +1,28 @@
 {
     "copyFiles": [
+        // References:
+        //     https://www.usa.gov/election-office
+
+        {
+            // https://chicagoelections.gov/en/election-results-specifics.asp
+            "from": "https://chicagoelections.gov/en/data-export.asp?election=251&race=11&ward=&precinct=",
+            "to": "dump/chicago/vote-count/chicago.xls"
+        },
+        {
+            // https://results.enr.clarityelections.com/CO/105975/web.264614/#/summary
+            "from": "https://results.enr.clarityelections.com//CO//105975/270054/reports/detailxml.zip",
+            "to": "dump/colorado/vote-count/colorado.zip"
+        },
+        {
+            // https://results.enr.clarityelections.com/GA/105369/web.264614/#/reporting
+            "from": "https://results.enr.clarityelections.com//GA//105369/270190/reports/detailxml.zip",
+            "to": "dump/georgia/vote-count/georgia.zip"
+        },
+        {
+            // https://mielections.us/election/results/2020GEN_CENR.html
+            "from": "https://mielections.us/election/results/DATA/2020GEN_MI_CENR_BY_COUNTY.xls",
+            "to": "dump/michigan/vote-count/michigan.xls"
+        },
         {
             // https://county.milwaukee.gov/EN/County-Clerk/Off-Nav/Election-Results/Election-Results-Fall-2020
             // TODO: Verify that the data is up to date w.r.t. ./dump/milwaukee/vote-count/reference/site-screenshot-1.png
@@ -17,7 +40,7 @@
         }
     ],
     "copyFilesSettings": {
-        "whenFileExists": "notify-about-available-change",
+        "whenFileExists": "do-nothing",
         "removeSourceMappingURL": false,
         "addReferenceToSourceOfOrigin": true
     }
