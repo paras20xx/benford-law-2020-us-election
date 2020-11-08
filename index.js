@@ -9,6 +9,7 @@ const seedrandom = require('./utils/seedrandom/seedrandom.js');
 
 const converter_1 = require('./converters/converter_1.js');
 const converter_2 = require('./converters/converter_2.js');
+const converter_3 = require('./converters/converter_3.js');
 
 const configsForLocations = [
     {
@@ -53,15 +54,37 @@ const configsForLocations = [
         fieldsToDelete: ['field1'],
         outputGraphPath: path.join(__dirname, 'dump', 'chicago', 'vote-count', 'chicago-graph.png')
     },
+
+
     {
         jsonFilePath: './dump/milwaukee/vote-count/milwaukee.json',
         fieldsToDelete: ['field1', 'field8'],
         outputGraphPath: path.join(__dirname, 'dump', 'milwaukee', 'vote-count', 'milwaukee-graph.png')
     },
+
+
     {
         jsonFilePath: './dump/nebraska/vote-count/nebraska.json',
         fieldsToDelete: ['County'],
         outputGraphPath: path.join(__dirname, 'dump', 'nebraska', 'vote-count', 'nebraska-graph.png')
+    },
+
+
+    {
+        mapJson: {
+            input: './dump/washington/vote-count/washington_parsing.json',
+            mappers: [
+                {
+                    converter: 'converter_3',
+                    options: {
+                        limitCandidates: 3
+                    }
+                }
+            ],
+            output: './dump/washington/vote-count/washington.json'
+        },
+        jsonFilePath: './dump/washington/vote-count/washington.json',
+        outputGraphPath: path.join(__dirname, 'dump', 'washington', 'vote-count', 'washington-graph.png')
     },
 
 
@@ -209,6 +232,8 @@ for (const configForLocation of configsForLocations) {
                 inputJson = converter_1(inputJson, mapper.options);
             } else if (mapper.converter === 'converter_2') {
                 inputJson = converter_2(inputJson, mapper.options);
+            } else if (mapper.converter === 'converter_3') {
+                inputJson = converter_3(inputJson, mapper.options);
             }
         }
 

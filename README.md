@@ -48,3 +48,6 @@ npm start # This would generate graphs from the processed data
 
 ### Georgia - Provisional votes
 ![Georgia - Provisional votes](./dump/georgia/vote-count/georgia-provisional-votes-graph.png)
+
+## Washington
+![Washington](./dump/washington/vote-count/washington-graph.png)
