@@ -385,8 +385,7 @@ for (const configForLocation of configsForLocations) {
                             }()),
                             borderColor: (function () {
                                 const arr = [];
-                                // TODO: It can be changed to "i <= base - 1"
-                                for (let i = 1; i <= base; i++) {
+                                for (let i = 1; i <= base - 1; i++) {
                                     arr.push(random_rgba());
                                 }
                                 return arr;
