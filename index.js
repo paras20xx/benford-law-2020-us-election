@@ -300,7 +300,7 @@ for (const configForLocation of configsForLocations) {
         const distributionForContestant = JSON.parse(JSON.stringify(intialDistribution));
 
         for (const voteCountEntryForLocation of voteCountEntriesForLocation) {
-            const voteCountForContestant = parseInt(voteCountEntryForLocation[contestant], base);
+            const voteCountForContestant = (parseInt(voteCountEntryForLocation[contestant], 10)).toString(base);
             let firstDigitAsString = '_' + String(voteCountForContestant).substring(0, 1);
             distributionForContestant[firstDigitAsString]++;
         }
