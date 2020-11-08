@@ -6,6 +6,7 @@ const path = require('path');
 const { CanvasRenderService } = require('chartjs-node-canvas');
 
 const seedrandom = require('./utils/seedrandom/seedrandom.js');
+const logForBase = require('./utils/logForBase/logForBase.js');
 
 const converter_1 = require('./converters/converter_1.js');
 const converter_2 = require('./converters/converter_2.js');
@@ -278,17 +279,18 @@ for (const configForLocation of configsForLocations) {
     console.log('\nContestants and the instances of their entries (their count should all be the same):');
     console.log(contestants);
 
+    const base = 10;
     const benfordDistribution = {
         '_0': 0,
-        '_1': Math.log10(1 + 1) - Math.log10(1),
-        '_2': Math.log10(2 + 1) - Math.log10(2),
-        '_3': Math.log10(3 + 1) - Math.log10(3),
-        '_4': Math.log10(4 + 1) - Math.log10(4),
-        '_5': Math.log10(5 + 1) - Math.log10(5),
-        '_6': Math.log10(6 + 1) - Math.log10(6),
-        '_7': Math.log10(7 + 1) - Math.log10(7),
-        '_8': Math.log10(8 + 1) - Math.log10(8),
-        '_9': Math.log10(9 + 1) - Math.log10(9)
+        '_1': logForBase(1 + 1, base) - logForBase(1, base),
+        '_2': logForBase(2 + 1, base) - logForBase(2, base),
+        '_3': logForBase(3 + 1, base) - logForBase(3, base),
+        '_4': logForBase(4 + 1, base) - logForBase(4, base),
+        '_5': logForBase(5 + 1, base) - logForBase(5, base),
+        '_6': logForBase(6 + 1, base) - logForBase(6, base),
+        '_7': logForBase(7 + 1, base) - logForBase(7, base),
+        '_8': logForBase(8 + 1, base) - logForBase(8, base),
+        '_9': logForBase(9 + 1, base) - logForBase(9, base)
     };
 
     const intialDistribution = {
