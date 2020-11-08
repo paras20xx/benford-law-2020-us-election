@@ -282,29 +282,17 @@ for (const configForLocation of configsForLocations) {
     const base = 10;
     const benfordDistribution = {
         '_0': 0,
-        '_1': logForBase(1 + 1, base) - logForBase(1, base),
-        '_2': logForBase(2 + 1, base) - logForBase(2, base),
-        '_3': logForBase(3 + 1, base) - logForBase(3, base),
-        '_4': logForBase(4 + 1, base) - logForBase(4, base),
-        '_5': logForBase(5 + 1, base) - logForBase(5, base),
-        '_6': logForBase(6 + 1, base) - logForBase(6, base),
-        '_7': logForBase(7 + 1, base) - logForBase(7, base),
-        '_8': logForBase(8 + 1, base) - logForBase(8, base),
-        '_9': logForBase(9 + 1, base) - logForBase(9, base)
     };
+    for (let i = 1; i <= base - 1; i++) {
+        benfordDistribution['_' + i] = logForBase(i + 1, base) - logForBase(i, base);
+    }
 
     const intialDistribution = {
         '_0': 0,
-        '_1': 0,
-        '_2': 0,
-        '_3': 0,
-        '_4': 0,
-        '_5': 0,
-        '_6': 0,
-        '_7': 0,
-        '_8': 0,
-        '_9': 0
     };
+    for (let i = 1; i <= base - 1; i++) {
+        intialDistribution['_' + i] = 0;
+    }
 
     const distributions = JSON.parse(JSON.stringify(contestants));
 
@@ -312,7 +300,7 @@ for (const configForLocation of configsForLocations) {
         const distributionForContestant = JSON.parse(JSON.stringify(intialDistribution));
 
         for (const voteCountEntryForLocation of voteCountEntriesForLocation) {
-            const voteCountForContestant = voteCountEntryForLocation[contestant];
+            const voteCountForContestant = parseInt(voteCountEntryForLocation[contestant], base);
             let firstDigitAsString = '_' + String(voteCountForContestant).substring(0, 1);
             distributionForContestant[firstDigitAsString]++;
         }
@@ -354,17 +342,13 @@ for (const configForLocation of configsForLocations) {
         const configuration = {
             type: 'line',
             data: {
-                labels: [
-                    '1',
-                    '2',
-                    '3',
-                    '4',
-                    '5',
-                    '6',
-                    '7',
-                    '8',
-                    '9'
-                ],
+                labels: (function () {
+                    const arr = [];
+                    for (let i = 1; i <= base - 1; i++) {
+                        arr.push('' + i);
+                    }
+                    return arr;
+                }()),
                 datasets: (function () {
                     const output = [];
 
@@ -372,58 +356,41 @@ for (const configForLocation of configsForLocations) {
 
                     output.push({
                         label: 'Ideal',
-                        data: [
-                            multiplier * benfordDistribution['_1'],
-                            multiplier * benfordDistribution['_2'],
-                            multiplier * benfordDistribution['_3'],
-                            multiplier * benfordDistribution['_4'],
-                            multiplier * benfordDistribution['_5'],
-                            multiplier * benfordDistribution['_6'],
-                            multiplier * benfordDistribution['_7'],
-                            multiplier * benfordDistribution['_8'],
-                            multiplier * benfordDistribution['_9']
-                        ],
-                        borderColor: [
-                            'rgba(255, 0, 0, 1)',
-                            'rgba(255, 0, 0, 1)',
-                            'rgba(255, 0, 0, 1)',
-                            'rgba(255, 0, 0, 1)',
-                            'rgba(255, 0, 0, 1)',
-                            'rgba(255, 0, 0, 1)',
-                            'rgba(255, 0, 0, 1)',
-                            'rgba(255, 0, 0, 1)',
-                            'rgba(255, 0, 0, 1)',
-                            'rgba(255, 0, 0, 1)'
-                        ]
+                        data: (function () {
+                            const arr = [];
+                            for (let i = 1; i <= base - 1; i++) {
+                                arr.push(multiplier * benfordDistribution['_' + i]);
+                            }
+                            return arr;
+                        }()),
+                        borderColor: (function () {
+                            const arr = [];
+                            for (let i = 1; i <= base - 1; i++) {
+                                arr.push('rgba(255, 0, 0, 1)');
+                            }
+                            return arr;
+                        }())
                     });
 
                     for (const contestant of contestantsArray) {
                         const distributionForContestant = distributions[contestant];
                         output.push({
                             label: contestant,
-                            data: [
-                                distributionForContestant['_1'],
-                                distributionForContestant['_2'],
-                                distributionForContestant['_3'],
-                                distributionForContestant['_4'],
-                                distributionForContestant['_5'],
-                                distributionForContestant['_6'],
-                                distributionForContestant['_7'],
-                                distributionForContestant['_8'],
-                                distributionForContestant['_9']
-                            ],
-                            borderColor: [
-                                random_rgba(),
-                                random_rgba(),
-                                random_rgba(),
-                                random_rgba(),
-                                random_rgba(),
-                                random_rgba(),
-                                random_rgba(),
-                                random_rgba(),
-                                random_rgba(),
-                                random_rgba()
-                            ]
+                            data: (function () {
+                                const arr = [];
+                                for (let i = 1; i <= base - 1; i++) {
+                                    arr.push(distributionForContestant['_' + i]);
+                                }
+                                return arr;
+                            }()),
+                            borderColor: (function () {
+                                const arr = [];
+                                // TODO: It can be changed to "i <= base - 1"
+                                for (let i = 1; i <= base; i++) {
+                                    arr.push(random_rgba());
+                                }
+                                return arr;
+                            }())
                         });
                     }
 
