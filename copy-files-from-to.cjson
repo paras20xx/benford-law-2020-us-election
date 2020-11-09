@@ -25,9 +25,10 @@
         },
         {
             // https://county.milwaukee.gov/EN/County-Clerk/Off-Nav/Election-Results/Election-Results-Fall-2020
-            // TODO: Verify that the data is up to date w.r.t. ./dump/milwaukee/vote-count/reference/site-screenshot-1.png
             "from": "https://raw.githubusercontent.com/FraudAnalysis/Benford2020/main/data/milwaukee_county.csv",
-            "to": "dump/milwaukee/vote-count/milwaukee.csv"
+            "to": "dump/milwaukee/vote-count/milwaukee_copied.csv"
+
+            // Note: dump/milwaukee/vote-count/milwaukee.csv was generated directly from the official site and that is used for final calculations
         },
         {
             // https://electionresults.nebraska.gov/resultsSW.aspx?text=Race&type=PRS&map=CTY

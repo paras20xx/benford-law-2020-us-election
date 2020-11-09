@@ -16,6 +16,7 @@ const configsForLocations = [
     {
         jsonFilePath: './dump/milwaukee/vote-count/milwaukee.json',
         fieldsToDelete: ['field1', 'field8'],
+        limitCandidates: 5,
         outputGraphPath: path.join(__dirname, 'dump', 'milwaukee', 'vote-count', 'milwaukee-graph.png')
     },
 

@@ -1,1 +1,6 @@
-https://raw.githubusercontent.com/FraudAnalysis/Benford2020/main/data/milwaukee_county.csv
+// Note: dump/milwaukee/vote-count/milwaukee.csv was generated directly from the official
+// site (https://county.milwaukee.gov/EN/County-Clerk/Off-Nav/Election-Results/Election-Results-Fall-2020)
+// and that is used for final calculations.
+
+// Note that some of the data on the site has minor mismatches related to totals (eg: Ballots Cast), but that
+// shouldn't impact the analysis as such.
