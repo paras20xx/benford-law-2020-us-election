@@ -29,7 +29,7 @@ const configsForLocations = [
                 {
                     converter: 'converter_4',
                     options: {
-                        limitCandidates: 3
+                        limitCandidates: 2
                     }
                 }
             ],
