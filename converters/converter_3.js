@@ -11,7 +11,7 @@ module.exports = function (input, { limitCandidates = Infinity }) {
 
     const contestants = [];
     for (const item of output) {
-        const candidateName = item.Candidate;
+        const candidateName = item['Candidate'];
         if (contestants.indexOf(candidateName) === -1) {
             contestants.push(candidateName);
         }

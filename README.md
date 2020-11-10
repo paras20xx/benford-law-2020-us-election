@@ -114,5 +114,22 @@ npm start # This would generate graphs from the processed data
   <p><img width="838" alt="Georgia - Provisional votes" src="dump/georgia/vote-count/georgia-provisional-votes-graph.png"></p>
 </details>
 
+
+## Alabama
+<img width="838" alt="Alabama" src="dump/alabama/vote-count/alabama-graph.png">
+
+
+## Iowa
+
+## Iowa - Election day votes
+<img width="838" alt="Iowa" src="dump/iowa/vote-count/iowa-election-day-votes-graph.png">
+
+<details>
+  <summary>Iowa - Absentee votes</summary>
+  <p><img width="838" alt="Iowa - Absentee votes" src="dump/iowa/vote-count/iowa-absentee-votes-graph.png"></p>
+</details>
+
+
+
 ## Washington
 <img width="838" alt="Washington" src="dump/washington/vote-count/washington-graph.png">

@@ -3,6 +3,9 @@
 set -x
 
 
+./node_modules/.bin/csvtojson --flatKeys=true ./dump/alabama/vote-count/alabama.csv > ./dump/alabama/vote-count/alabama_parsing.json
+
+
 ./node_modules/.bin/csvtojson --flatKeys=true ./dump/milwaukee/vote-count/milwaukee.csv > ./dump/milwaukee/vote-count/milwaukee.json
 
 
@@ -24,6 +27,15 @@ unzip georgia.zip
 mv detail.xml georgia.xml
 ../../../node_modules/.bin/xml-js georgia.xml --spaces 4 --out georgia_converted.json
 jq '.elements[1].elements[5].elements' georgia_converted.json > georgia_parsing.json
+cd ../../../
+
+
+cd ./dump/iowa/vote-count/
+rm -f iowa.xml
+unzip iowa.zip
+mv detail.xml iowa.xml
+../../../node_modules/.bin/xml-js iowa.xml --spaces 4 --out iowa_converted.json
+jq '.elements[1].elements[5].elements' iowa_converted.json > iowa_parsing.json
 cd ../../../
 
 

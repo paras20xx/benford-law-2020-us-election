@@ -4,6 +4,11 @@
         //     https://www.usa.gov/election-office
 
         {
+            // https://www2.alabamavotes.gov/electionnight/statewideResultsByContest.aspx?ecode=1001090
+            "from": "https://www2.alabamavotes.gov/electionnight/statewideResultsByContest.aspx?ecode=1001090",
+            "to": "dump/alabama/vote-count/alabama.xlsx"
+        },
+        {
             // https://chicagoelections.gov/en/election-results-specifics.asp
             "from": "https://chicagoelections.gov/en/data-export.asp?election=251&race=11&ward=&precinct=",
             "to": "dump/chicago/vote-count/chicago.xls"
@@ -17,6 +22,11 @@
             // https://results.enr.clarityelections.com/GA/105369/web.264614/#/reporting
             "from": "https://results.enr.clarityelections.com//GA//105369/270190/reports/detailxml.zip",
             "to": "dump/georgia/vote-count/georgia.zip"
+        },
+        {
+            // https://electionresults.iowa.gov/IA/106279/web.264614/#/summary
+            "from": "https://electionresults.iowa.gov//IA//106279/270661/reports/detailxml.zip",
+            "to": "dump/iowa/vote-count/iowa.zip"
         },
         {
             // https://mielections.us/election/results/2020GEN_CENR.html

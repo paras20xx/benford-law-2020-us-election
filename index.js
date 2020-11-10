@@ -11,6 +11,7 @@ const logForBase = require('./utils/logForBase/logForBase.js');
 const converter_1 = require('./converters/converter_1.js');
 const converter_2 = require('./converters/converter_2.js');
 const converter_3 = require('./converters/converter_3.js');
+const converter_4 = require('./converters/converter_4.js');
 
 const configsForLocations = [
     {
@@ -18,6 +19,25 @@ const configsForLocations = [
         fieldsToDelete: ['field1', 'field8'],
         limitCandidates: 4,
         outputGraphPath: path.join(__dirname, 'dump', 'milwaukee', 'vote-count', 'milwaukee-graph.png')
+    },
+
+
+    {
+        mapJson: {
+            input: './dump/alabama/vote-count/alabama_parsing.json',
+            mappers: [
+                {
+                    converter: 'converter_4',
+                    options: {
+                        limitCandidates: 3
+                    }
+                }
+            ],
+            output: './dump/alabama/vote-count/alabama.json'
+        },
+        jsonFilePath: './dump/alabama/vote-count/alabama.json',
+        fieldsToDelete: ['field1'],
+        outputGraphPath: path.join(__dirname, 'dump', 'alabama', 'vote-count', 'alabama-graph.png')
     },
 
 
@@ -194,7 +214,43 @@ const configsForLocations = [
         jsonFilePath: './dump/georgia/vote-count/georgia-provisional-votes.json',
         limitCandidates: 2,
         outputGraphPath: path.join(__dirname, 'dump', 'georgia', 'vote-count', 'georgia-provisional-votes-graph.png')
-    }
+    },
+
+
+    {
+        mapJson: {
+            input: './dump/iowa/vote-count/iowa_parsing.json',
+            mappers: [
+                {
+                    converter: 'converter_1',
+                    options: {
+                        voteTypeIndex: 0
+                    }
+                }
+            ],
+            output: './dump/iowa/vote-count/iowa-election-day-votes.json'
+        },
+        jsonFilePath: './dump/iowa/vote-count/iowa-election-day-votes.json',
+        limitCandidates: 2,
+        outputGraphPath: path.join(__dirname, 'dump', 'iowa', 'vote-count', 'iowa-election-day-votes-graph.png')
+    },
+    {
+        mapJson: {
+            input: './dump/iowa/vote-count/iowa_parsing.json',
+            mappers: [
+                {
+                    converter: 'converter_1',
+                    options: {
+                        voteTypeIndex: 1
+                    }
+                }
+            ],
+            output: './dump/iowa/vote-count/iowa-absentee-votes.json'
+        },
+        jsonFilePath: './dump/iowa/vote-count/iowa-absentee-votes.json',
+        limitCandidates: 2,
+        outputGraphPath: path.join(__dirname, 'dump', 'iowa', 'vote-count', 'iowa-absentee-votes-graph.png')
+    },
 ];
 
 const fromBase = 3;
@@ -246,6 +302,8 @@ for (let base = fromBase; base <= toBase; base++) {
                     inputJson = converter_2(inputJson, mapper.options);
                 } else if (mapper.converter === 'converter_3') {
                     inputJson = converter_3(inputJson, mapper.options);
+                } else if (mapper.converter === 'converter_4') {
+                    inputJson = converter_4(inputJson, mapper.options);
                 }
             }
 
@@ -346,7 +404,7 @@ for (let base = fromBase; base <= toBase; base++) {
         const canvasRenderService = new CanvasRenderService(width, height, chartCallback);
 
         // https://github.com/davidbau/seedrandom
-        const seededRandom = new seedrandom('this-is-a-seed-string_1000');
+        const seededRandom = new seedrandom('this-is-a-seed-string_100000000');
 
         // https://stackoverflow.com/questions/23095637/how-do-you-get-random-rgb-in-javascript/23095818#23095818
         function random_rgba() {
