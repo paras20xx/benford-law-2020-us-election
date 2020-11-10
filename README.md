@@ -87,6 +87,40 @@ npm start # This would generate graphs from the processed data
 </details>
 
 
+## San Francisco, California (Sample size: 609)
+**Data source:** https://github.com/snex/election_results_benford/blob/master/data/CA/san_francisco.csv
+<img width="838" alt="San Francisco" src="dump/san-francisco/vote-count/san-francisco-graph.png">
+
+<details>
+  <summary>San Francisco - Base 3</summary>
+  <p><img width="838" alt="San Francisco - Base 3" src="dump/san-francisco/vote-count/san-francisco-graph-base-3.png"></p>
+</details>
+<details>
+  <summary>San Francisco - Base 4</summary>
+  <p><img width="838" alt="San Francisco - Base 4" src="dump/san-francisco/vote-count/san-francisco-graph-base-4.png"></p>
+</details>
+<details>
+  <summary>San Francisco - Base 5</summary>
+  <p><img width="838" alt="San Francisco - Base 5" src="dump/san-francisco/vote-count/san-francisco-graph-base-5.png"></p>
+</details>
+<details>
+  <summary>San Francisco - Base 6</summary>
+  <p><img width="838" alt="San Francisco - Base 6" src="dump/san-francisco/vote-count/san-francisco-graph-base-6.png"></p>
+</details>
+<details>
+  <summary>San Francisco - Base 7</summary>
+  <p><img width="838" alt="San Francisco - Base 7" src="dump/san-francisco/vote-count/san-francisco-graph-base-7.png"></p>
+</details>
+<details>
+  <summary>San Francisco - Base 8</summary>
+  <p><img width="838" alt="San Francisco - Base 8" src="dump/san-francisco/vote-count/san-francisco-graph-base-8.png"></p>
+</details>
+<details>
+  <summary>San Francisco - Base 9</summary>
+  <p><img width="838" alt="San Francisco - Base 9" src="dump/san-francisco/vote-count/san-francisco-graph-base-9.png"></p>
+</details>
+
+
 ## Washington (Sample size: 4834)
 <img width="838" alt="Washington" src="dump/washington/vote-count/washington-graph.png">
 

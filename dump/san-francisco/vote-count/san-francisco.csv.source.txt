@@ -1,0 +1,1 @@
+https://raw.githubusercontent.com/snex/election_results_benford/master/data/CA/san_francisco.csv

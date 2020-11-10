@@ -283,6 +283,57 @@ let configsForLocations = [
 
 
     {
+        only: true,
+        mapJson: {
+            input: './dump/san-francisco/vote-count/san-francisco_converted.json',
+            mappers: [
+                {
+                    fieldsToDelete: [
+                        'Precinct',
+                        'Undervotes', // TODO: Check this
+                        'field4',
+                        'Overvotes', // TODO: Check this
+                        'field8',
+                        'field10',
+                        'field12',
+                        'field13',
+                        'field15',
+                        'field17',
+                        'field18',
+                        'field20',
+                        'field22',
+                        'field25',
+                        'field27',
+                        'field29',
+                        'field31',
+                        'field33',
+                        'GLORIA LA RIVA AND SUNIL FREEMAN',
+                        'ROQUE \"ROCKY\" DE LA FUENTE GUERRA AND KANYE OMARI WEST',
+                        'HOWIE HAWKINS AND ANGELA NICOLE WALKER',
+                        'JO JORGENSEN AND JEREMY \"SPIKE\" COHEN',
+                        'Write-in',
+                        'BRIAN CARROLL AND AMAR PATEL Qualified Write In',
+                        'MARK CHARLES AND ADRIAN WALLACE Qualified Write In',
+                        'JOSEPH KISHORE AND NORISSA SANTA CRUZ Qualified Write In',
+                        'BROCK PIERCE AND KARLA BALLARD Qualified Write In',
+                        'JESSE VENTURA AND CYNTHIA MCKINNEY Qualified Write In'
+                    ]
+                },
+                {
+                    renameFields: [
+                        { from: 'JOSEPH R. BIDEN AND KAMALA D. HARRIS', to: 'Biden' },
+                        { from: 'DONALD J. TRUMP AND MICHAEL R. PENCE', to: 'Trump' }
+                    ]
+                }
+            ],
+            output: './dump/san-francisco/vote-count/san-francisco.json'
+        },
+        jsonFilePath: './dump/san-francisco/vote-count/san-francisco.json',
+        outputGraphPath: path.join(__dirname, 'dump', 'san-francisco', 'vote-count', 'san-francisco-graph.png')
+    },
+
+
+    {
         mapJson: {
             input: './dump/tennessee/vote-count/tennessee_parsing.json',
             mappers: [

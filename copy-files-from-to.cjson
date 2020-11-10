@@ -51,6 +51,11 @@
             "to": "dump/nebraska/vote-count/nebraska.xls"
         },
         {
+            // https://github.com/snex/election_results_benford/blob/master/data/CA/san_francisco.csv
+            "from": "https://raw.githubusercontent.com/snex/election_results_benford/master/data/CA/san_francisco.csv",
+            "to": "dump/san-francisco/vote-count/san-francisco.csv"
+        },
+        {
             // https://results.vote.wa.gov/results/20201103/export.html
             "from": "https://results.vote.wa.gov/results/20201103/export/20201103_AllStatePrecincts.csv",
             "to": "dump/washington/vote-count/washington.csv"

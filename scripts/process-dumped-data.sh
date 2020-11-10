@@ -21,6 +21,9 @@ set -x
 ./node_modules/.bin/csvtojson --flatKeys=true --delimiter=auto ./dump/michigan/vote-count/michigan.xls > ./dump/michigan/vote-count/michigan_parsing.json
 
 
+./node_modules/.bin/csvtojson --flatKeys=true --delimiter=auto ./dump/san-francisco/vote-count/san-francisco.csv > ./dump/san-francisco/vote-count/san-francisco_converted.json
+
+
 cd ./dump/colorado/vote-count/
 rm -f colorado.xml
 unzip colorado.zip
