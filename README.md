@@ -20,37 +20,6 @@ npm start # This would generate graphs from the processed data
 
 # Generated graphs
 
-## Milwaukee, Wisconsin (Sample size: 478)
-<img width="838" alt="Milwaukee" src="dump/milwaukee/vote-count/milwaukee-graph.png">
-
-<details>
-  <summary>Milwaukee - Base 3</summary>
-  <p><img width="838" alt="Milwaukee - Base 3" src="dump/milwaukee/vote-count/milwaukee-graph-base-3.png"></p>
-</details>
-<details>
-  <summary>Milwaukee - Base 4</summary>
-  <p><img width="838" alt="Milwaukee - Base 4" src="dump/milwaukee/vote-count/milwaukee-graph-base-4.png"></p>
-</details>
-<details>
-  <summary>Milwaukee - Base 5</summary>
-  <p><img width="838" alt="Milwaukee - Base 5" src="dump/milwaukee/vote-count/milwaukee-graph-base-5.png"></p>
-</details>
-<details>
-  <summary>Milwaukee - Base 6</summary>
-  <p><img width="838" alt="Milwaukee - Base 6" src="dump/milwaukee/vote-count/milwaukee-graph-base-6.png"></p>
-</details>
-<details>
-  <summary>Milwaukee - Base 7</summary>
-  <p><img width="838" alt="Milwaukee - Base 7" src="dump/milwaukee/vote-count/milwaukee-graph-base-7.png"></p>
-</details>
-<details>
-  <summary>Milwaukee - Base 8</summary>
-  <p><img width="838" alt="Milwaukee - Base 8" src="dump/milwaukee/vote-count/milwaukee-graph-base-8.png"></p>
-</details>
-<details>
-  <summary>Milwaukee - Base 9</summary>
-  <p><img width="838" alt="Milwaukee - Base 9" src="dump/milwaukee/vote-count/milwaukee-graph-base-9.png"></p>
-</details>
 
 ## Chicago, Illinois (Sample size: 2069)
 <img width="838" alt="Chicago" src="dump/chicago/vote-count/chicago-graph.png">
@@ -85,14 +54,42 @@ npm start # This would generate graphs from the processed data
 </details>
 
 
-## Nebraska (Sample size: 93)
-<img width="838" alt="Nebraska" src="dump/nebraska/vote-count/nebraska-graph.png">
+## Milwaukee, Wisconsin (Sample size: 478)
+<img width="838" alt="Milwaukee" src="dump/milwaukee/vote-count/milwaukee-graph.png">
 
-## Michigan (Sample size: 83)
-<img width="838" alt="Michigan" src="dump/michigan/vote-count/michigan-graph.png">
+<details>
+  <summary>Milwaukee - Base 3</summary>
+  <p><img width="838" alt="Milwaukee - Base 3" src="dump/milwaukee/vote-count/milwaukee-graph-base-3.png"></p>
+</details>
+<details>
+  <summary>Milwaukee - Base 4</summary>
+  <p><img width="838" alt="Milwaukee - Base 4" src="dump/milwaukee/vote-count/milwaukee-graph-base-4.png"></p>
+</details>
+<details>
+  <summary>Milwaukee - Base 5</summary>
+  <p><img width="838" alt="Milwaukee - Base 5" src="dump/milwaukee/vote-count/milwaukee-graph-base-5.png"></p>
+</details>
+<details>
+  <summary>Milwaukee - Base 6</summary>
+  <p><img width="838" alt="Milwaukee - Base 6" src="dump/milwaukee/vote-count/milwaukee-graph-base-6.png"></p>
+</details>
+<details>
+  <summary>Milwaukee - Base 7</summary>
+  <p><img width="838" alt="Milwaukee - Base 7" src="dump/milwaukee/vote-count/milwaukee-graph-base-7.png"></p>
+</details>
+<details>
+  <summary>Milwaukee - Base 8</summary>
+  <p><img width="838" alt="Milwaukee - Base 8" src="dump/milwaukee/vote-count/milwaukee-graph-base-8.png"></p>
+</details>
+<details>
+  <summary>Milwaukee - Base 9</summary>
+  <p><img width="838" alt="Milwaukee - Base 9" src="dump/milwaukee/vote-count/milwaukee-graph-base-9.png"></p>
+</details>
 
-## Colorado (Sample size: 64)
-<img width="838" alt="Colorado" src="dump/colorado/vote-count/colorado-election-day-votes-graph.png">
+
+## Washington (Sample size: 4834)
+<img width="838" alt="Washington" src="dump/washington/vote-count/washington-graph.png">
+
 
 ## Georgia (Sample size: 159)
 
@@ -115,8 +112,8 @@ npm start # This would generate graphs from the processed data
 </details>
 
 
-## Alabama (Sample size: 67)
-<img width="838" alt="Alabama" src="dump/alabama/vote-count/alabama-graph.png">
+## Kentucky - Election day votes (Sample size: 120)
+<img width="838" alt="Kentucky" src="dump/kentucky/vote-count/kentucky-election-day-votes-graph.png">
 
 
 ## Iowa (Sample size: 99)
@@ -130,13 +127,21 @@ npm start # This would generate graphs from the processed data
 </details>
 
 
-## Kentucky - Election day votes (Sample size: 120)
-<img width="838" alt="Kentucky" src="dump/kentucky/vote-count/kentucky-election-day-votes-graph.png">
-
-
 ## Tennessee (Sample size: 95)
 <img width="838" alt="Tennessee" src="dump/tennessee/vote-count/tennessee-graph.png">
 
 
-## Washington (Sample size: 4834)
-<img width="838" alt="Washington" src="dump/washington/vote-count/washington-graph.png">
+## Nebraska (Sample size: 93)
+<img width="838" alt="Nebraska" src="dump/nebraska/vote-count/nebraska-graph.png">
+
+
+## Michigan (Sample size: 83)
+<img width="838" alt="Michigan" src="dump/michigan/vote-count/michigan-graph.png">
+
+
+## Alabama (Sample size: 67)
+<img width="838" alt="Alabama" src="dump/alabama/vote-count/alabama-graph.png">
+
+
+## Colorado (Sample size: 64)
+<img width="838" alt="Colorado" src="dump/colorado/vote-count/colorado-election-day-votes-graph.png">
