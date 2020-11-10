@@ -1,0 +1,855 @@
+Donald J. Trump	Republican	23,163	65.20%
+Joseph R. Biden	Democratic	11,733	33.03%
+Jo Jorgensen	Independent	396	1.11%
+Kanye West	Independent	69	0.19%
+Don Blankenship	Independent	56	0.16%
+Howie Hawkins	Independent	52	0.15%
+Alyson Kennedy	Independent	33	0.09%
+Gloria La Riva	Independent	13	0.04%
+Roque "Rocky" De La Fuente	Independent	12	0.03%
+Donald J. Trump	Republican	14,317	75.20%
+Joseph R. Biden	Democratic	4,443	23.34%
+Jo Jorgensen	Independent	155	0.81%
+Kanye West	Independent	45	0.24%
+Don Blankenship	Independent	32	0.17%
+Howie Hawkins	Independent	24	0.13%
+Alyson Kennedy	Independent	9	0.05%
+Roque "Rocky" De La Fuente	Independent	8	0.04%
+Gloria La Riva	Independent	6	0.03%
+Donald J. Trump	Republican	5,661	78.08%
+Joseph R. Biden	Democratic	1,526	21.05%
+Jo Jorgensen	Independent	35	0.48%
+Don Blankenship	Independent	8	0.11%
+Kanye West	Independent	8	0.11%
+Howie Hawkins	Independent	6	0.08%
+Alyson Kennedy	Independent	3	0.04%
+Gloria La Riva	Independent	2	0.03%
+Roque "Rocky" De La Fuente	Independent	1	0.01%
+Donald J. Trump	Republican	4,725	82.06%
+Joseph R. Biden	Democratic	971	16.86%
+Jo Jorgensen	Independent	33	0.57%
+Don Blankenship	Independent	13	0.23%
+Kanye West	Independent	7	0.12%
+Howie Hawkins	Independent	4	0.07%
+Roque "Rocky" De La Fuente	Independent	2	0.03%
+Alyson Kennedy	Independent	2	0.03%
+Gloria La Riva	Independent	1	0.02%
+Donald J. Trump	Republican	47,195	71.18%
+Joseph R. Biden	Democratic	17,834	26.90%
+Jo Jorgensen	Independent	831	1.25%
+Don Blankenship	Independent	141	0.21%
+Kanye West	Independent	130	0.20%
+Howie Hawkins	Independent	99	0.15%
+Roque "Rocky" De La Fuente	Independent	37	0.06%
+Alyson Kennedy	Independent	27	0.04%
+Gloria La Riva	Independent	12	0.02%
+Donald J. Trump	Republican	35,194	76.78%
+Joseph R. Biden	Democratic	9,849	21.49%
+Jo Jorgensen	Independent	497	1.08%
+Kanye West	Independent	102	0.22%
+Don Blankenship	Independent	85	0.19%
+Howie Hawkins	Independent	53	0.12%
+Roque "Rocky" De La Fuente	Independent	24	0.05%
+Gloria La Riva	Independent	17	0.04%
+Alyson Kennedy	Independent	15	0.03%
+Donald J. Trump	Republican	12,330	82.59%
+Joseph R. Biden	Democratic	2,438	16.33%
+Jo Jorgensen	Independent	101	0.68%
+Don Blankenship	Independent	24	0.16%
+Kanye West	Independent	18	0.12%
+Howie Hawkins	Independent	9	0.06%
+Alyson Kennedy	Independent	5	0.03%
+Roque "Rocky" De La Fuente	Independent	2	0.01%
+Gloria La Riva	Independent	2	0.01%
+Donald J. Trump	Republican	5,190	79.18%
+Joseph R. Biden	Democratic	1,261	19.24%
+Jo Jorgensen	Independent	63	0.96%
+Don Blankenship	Independent	12	0.18%
+Kanye West	Independent	12	0.18%
+Alyson Kennedy	Independent	7	0.11%
+Howie Hawkins	Independent	6	0.09%
+Roque "Rocky" De La Fuente	Independent	2	0.03%
+Gloria La Riva	Independent	2	0.03%
+Donald J. Trump	Republican	9,194	77.31%
+Joseph R. Biden	Democratic	2,558	21.51%
+Jo Jorgensen	Independent	90	0.76%
+Don Blankenship	Independent	18	0.15%
+Howie Hawkins	Independent	12	0.10%
+Kanye West	Independent	9	0.08%
+Alyson Kennedy	Independent	7	0.06%
+Roque "Rocky" De La Fuente	Independent	3	0.03%
+Gloria La Riva	Independent	2	0.02%
+Donald J. Trump	Republican	19,574	79.98%
+Joseph R. Biden	Democratic	4,526	18.49%
+Jo Jorgensen	Independent	243	0.99%
+Howie Hawkins	Independent	39	0.16%
+Kanye West	Independent	33	0.13%
+Don Blankenship	Independent	27	0.11%
+Alyson Kennedy	Independent	13	0.05%
+Gloria La Riva	Independent	13	0.05%
+Roque "Rocky" De La Fuente	Independent	6	0.02%
+Donald J. Trump	Republican	14,328	71.32%
+Joseph R. Biden	Democratic	5,457	27.16%
+Jo Jorgensen	Independent	205	1.02%
+Don Blankenship	Independent	30	0.15%
+Howie Hawkins	Independent	27	0.13%
+Kanye West	Independent	23	0.11%
+Roque "Rocky" De La Fuente	Independent	15	0.07%
+Alyson Kennedy	Independent	5	0.02%
+Gloria La Riva	Independent	1	0.00%
+Donald J. Trump	Republican	5,951	78.53%
+Joseph R. Biden	Democratic	1,411	18.62%
+Jo Jorgensen	Independent	86	1.13%
+Kanye West	Independent	71	0.94%
+Don Blankenship	Independent	23	0.30%
+Alyson Kennedy	Independent	15	0.20%
+Roque "Rocky" De La Fuente	Independent	8	0.11%
+Howie Hawkins	Independent	7	0.09%
+Gloria La Riva	Independent	6	0.08%
+Donald J. Trump	Republican	10,598	81.93%
+Joseph R. Biden	Democratic	2,201	17.02%
+Jo Jorgensen	Independent	82	0.63%
+Kanye West	Independent	22	0.17%
+Don Blankenship	Independent	11	0.09%
+Alyson Kennedy	Independent	8	0.06%
+Roque "Rocky" De La Fuente	Independent	7	0.05%
+Howie Hawkins	Independent	6	0.05%
+Gloria La Riva	Independent	0	0.00%
+Donald J. Trump	Republican	2,733	77.95%
+Joseph R. Biden	Democratic	735	20.96%
+Jo Jorgensen	Independent	22	0.63%
+Don Blankenship	Independent	5	0.14%
+Howie Hawkins	Independent	4	0.11%
+Kanye West	Independent	4	0.11%
+Alyson Kennedy	Independent	2	0.06%
+Roque "Rocky" De La Fuente	Independent	1	0.03%
+Gloria La Riva	Independent	0	0.00%
+Donald J. Trump	Republican	12,128	81.86%
+Joseph R. Biden	Democratic	2,524	17.04%
+Jo Jorgensen	Independent	93	0.63%
+Howie Hawkins	Independent	23	0.16%
+Kanye West	Independent	20	0.13%
+Don Blankenship	Independent	12	0.08%
+Alyson Kennedy	Independent	7	0.05%
+Roque "Rocky" De La Fuente	Independent	5	0.03%
+Gloria La Riva	Independent	4	0.03%
+Donald J. Trump	Republican	17,863	73.63%
+Joseph R. Biden	Democratic	5,704	23.51%
+Jo Jorgensen	Independent	242	1.00%
+Kanye West	Independent	219	0.90%
+Alyson Kennedy	Independent	71	0.29%
+Don Blankenship	Independent	59	0.24%
+Howie Hawkins	Independent	49	0.20%
+Gloria La Riva	Independent	30	0.12%
+Roque "Rocky" De La Fuente	Independent	24	0.10%
+Donald J. Trump	Republican	4,673	76.43%
+Joseph R. Biden	Democratic	1,382	22.60%
+Jo Jorgensen	Independent	30	0.49%
+Kanye West	Independent	12	0.20%
+Howie Hawkins	Independent	6	0.10%
+Alyson Kennedy	Independent	4	0.07%
+Don Blankenship	Independent	3	0.05%
+Roque "Rocky" De La Fuente	Independent	3	0.05%
+Gloria La Riva	Independent	1	0.02%
+Donald J. Trump	Republican	25,167	77.97%
+Joseph R. Biden	Democratic	6,728	20.84%
+Jo Jorgensen	Independent	232	0.72%
+Don Blankenship	Independent	62	0.19%
+Kanye West	Independent	35	0.11%
+Howie Hawkins	Independent	31	0.10%
+Alyson Kennedy	Independent	13	0.04%
+Roque "Rocky" De La Fuente	Independent	9	0.03%
+Gloria La Riva	Independent	1	0.00%
+Joseph R. Biden	Democratic	197,846	64.49%
+Donald J. Trump	Republican	99,415	32.41%
+Jo Jorgensen	Independent	3,520	1.15%
+Kanye West	Independent	2,590	0.84%
+Gloria La Riva	Independent	1,066	0.35%
+Howie Hawkins	Independent	722	0.24%
+Alyson Kennedy	Independent	630	0.21%
+Don Blankenship	Independent	595	0.19%
+Roque "Rocky" De La Fuente	Independent	399	0.13%
+Donald J. Trump	Republican	4,229	80.69%
+Joseph R. Biden	Democratic	904	17.25%
+Kanye West	Independent	42	0.80%
+Jo Jorgensen	Independent	21	0.40%
+Don Blankenship	Independent	15	0.29%
+Alyson Kennedy	Independent	12	0.23%
+Howie Hawkins	Independent	10	0.19%
+Roque "Rocky" De La Fuente	Independent	4	0.08%
+Gloria La Riva	Independent	4	0.08%
+Donald J. Trump	Republican	6,663	78.38%
+Joseph R. Biden	Democratic	1,747	20.55%
+Jo Jorgensen	Independent	60	0.71%
+Don Blankenship	Independent	9	0.11%
+Kanye West	Independent	9	0.11%
+Howie Hawkins	Independent	6	0.07%
+Roque "Rocky" De La Fuente	Independent	4	0.05%
+Gloria La Riva	Independent	2	0.02%
+Alyson Kennedy	Independent	1	0.01%
+Donald J. Trump	Republican	17,619	72.54%
+Joseph R. Biden	Democratic	6,098	25.10%
+Jo Jorgensen	Independent	260	1.07%
+Kanye West	Independent	134	0.55%
+Don Blankenship	Independent	55	0.23%
+Howie Hawkins	Independent	40	0.16%
+Alyson Kennedy	Independent	39	0.16%
+Gloria La Riva	Independent	29	0.12%
+Roque "Rocky" De La Fuente	Independent	16	0.07%
+Donald J. Trump	Republican	11,766	78.05%
+Joseph R. Biden	Democratic	3,157	20.94%
+Jo Jorgensen	Independent	96	0.64%
+Don Blankenship	Independent	16	0.11%
+Kanye West	Independent	13	0.09%
+Roque "Rocky" De La Fuente	Independent	9	0.06%
+Alyson Kennedy	Independent	9	0.06%
+Howie Hawkins	Independent	7	0.05%
+Gloria La Riva	Independent	1	0.01%
+Donald J. Trump	Republican	15,661	68.31%
+Joseph R. Biden	Democratic	7,000	30.53%
+Jo Jorgensen	Independent	145	0.63%
+Kanye West	Independent	42	0.18%
+Howie Hawkins	Independent	30	0.13%
+Don Blankenship	Independent	18	0.08%
+Alyson Kennedy	Independent	16	0.07%
+Roque "Rocky" De La Fuente	Independent	9	0.04%
+Gloria La Riva	Independent	7	0.03%
+Donald J. Trump	Republican	7,403	85.22%
+Joseph R. Biden	Democratic	1,210	13.93%
+Jo Jorgensen	Independent	36	0.41%
+Don Blankenship	Independent	18	0.21%
+Kanye West	Independent	10	0.12%
+Howie Hawkins	Independent	6	0.07%
+Roque "Rocky" De La Fuente	Independent	2	0.02%
+Alyson Kennedy	Independent	2	0.02%
+Gloria La Riva	Independent	0	0.00%
+Donald J. Trump	Republican	13,977	73.12%
+Joseph R. Biden	Democratic	4,863	25.44%
+Jo Jorgensen	Independent	164	0.86%
+Kanye West	Independent	33	0.17%
+Don Blankenship	Independent	30	0.16%
+Howie Hawkins	Independent	27	0.14%
+Gloria La Riva	Independent	8	0.04%
+Roque "Rocky" De La Fuente	Independent	7	0.04%
+Alyson Kennedy	Independent	7	0.04%
+Donald J. Trump	Republican	16,245	72.82%
+Joseph R. Biden	Democratic	5,764	25.84%
+Jo Jorgensen	Independent	160	0.72%
+Don Blankenship	Independent	48	0.22%
+Howie Hawkins	Independent	32	0.14%
+Kanye West	Independent	31	0.14%
+Alyson Kennedy	Independent	15	0.07%
+Roque "Rocky" De La Fuente	Independent	8	0.04%
+Gloria La Riva	Independent	5	0.02%
+Donald J. Trump	Republican	9,783	74.10%
+Joseph R. Biden	Democratic	3,298	24.98%
+Jo Jorgensen	Independent	68	0.52%
+Kanye West	Independent	22	0.17%
+Don Blankenship	Independent	14	0.11%
+Howie Hawkins	Independent	9	0.07%
+Roque "Rocky" De La Fuente	Independent	3	0.02%
+Alyson Kennedy	Independent	3	0.02%
+Gloria La Riva	Independent	2	0.02%
+Donald J. Trump	Republican	8,559	84.55%
+Joseph R. Biden	Democratic	1,463	14.45%
+Jo Jorgensen	Independent	61	0.60%
+Kanye West	Independent	13	0.13%
+Don Blankenship	Independent	12	0.12%
+Howie Hawkins	Independent	9	0.09%
+Roque "Rocky" De La Fuente	Independent	2	0.02%
+Alyson Kennedy	Independent	2	0.02%
+Gloria La Riva	Independent	2	0.02%
+Donald J. Trump	Republican	22,185	79.25%
+Joseph R. Biden	Democratic	5,183	18.51%
+Jo Jorgensen	Independent	203	0.73%
+Kanye West	Independent	180	0.64%
+Don Blankenship	Independent	87	0.31%
+Howie Hawkins	Independent	64	0.23%
+Alyson Kennedy	Independent	58	0.21%
+Gloria La Riva	Independent	23	0.08%
+Roque "Rocky" De La Fuente	Independent	11	0.04%
+Donald J. Trump	Republican	4,795	82.05%
+Joseph R. Biden	Democratic	985	16.85%
+Jo Jorgensen	Independent	34	0.58%
+Don Blankenship	Independent	11	0.19%
+Howie Hawkins	Independent	9	0.15%
+Kanye West	Independent	6	0.10%
+Roque "Rocky" De La Fuente	Independent	3	0.05%
+Alyson Kennedy	Independent	1	0.02%
+Gloria La Riva	Independent	0	0.00%
+Donald J. Trump	Republican	18,789	76.36%
+Joseph R. Biden	Democratic	5,497	22.34%
+Jo Jorgensen	Independent	195	0.79%
+Kanye West	Independent	37	0.15%
+Don Blankenship	Independent	33	0.13%
+Howie Hawkins	Independent	20	0.08%
+Alyson Kennedy	Independent	17	0.07%
+Roque "Rocky" De La Fuente	Independent	10	0.04%
+Gloria La Riva	Independent	8	0.03%
+Donald J. Trump	Republican	91,991	53.88%
+Joseph R. Biden	Democratic	75,360	44.14%
+Jo Jorgensen	Independent	2,227	1.30%
+Kanye West	Independent	393	0.23%
+Don Blankenship	Independent	281	0.16%
+Howie Hawkins	Independent	273	0.16%
+Roque "Rocky" De La Fuente	Independent	82	0.05%
+Alyson Kennedy	Independent	66	0.04%
+Gloria La Riva	Independent	62	0.04%
+Donald J. Trump	Republican	2,372	86.44%
+Joseph R. Biden	Democratic	362	13.19%
+Don Blankenship	Independent	5	0.18%
+Jo Jorgensen	Independent	4	0.15%
+Kanye West	Independent	1	0.04%
+Roque "Rocky" De La Fuente	Independent	0	0.00%
+Howie Hawkins	Independent	0	0.00%
+Alyson Kennedy	Independent	0	0.00%
+Gloria La Riva	Independent	0	0.00%
+Donald J. Trump	Republican	5,760	57.27%
+Joseph R. Biden	Democratic	4,180	41.56%
+Jo Jorgensen	Independent	40	0.40%
+Don Blankenship	Independent	33	0.33%
+Kanye West	Independent	13	0.13%
+Alyson Kennedy	Independent	11	0.11%
+Howie Hawkins	Independent	8	0.08%
+Roque "Rocky" De La Fuente	Independent	7	0.07%
+Gloria La Riva	Independent	6	0.06%
+Donald J. Trump	Republican	9,556	82.85%
+Joseph R. Biden	Democratic	1,774	15.38%
+Kanye West	Independent	70	0.61%
+Jo Jorgensen	Independent	52	0.45%
+Don Blankenship	Independent	28	0.24%
+Alyson Kennedy	Independent	28	0.24%
+Gloria La Riva	Independent	13	0.11%
+Roque "Rocky" De La Fuente	Independent	7	0.06%
+Howie Hawkins	Independent	6	0.05%
+Donald J. Trump	Republican	20,372	82.22%
+Joseph R. Biden	Democratic	4,069	16.42%
+Jo Jorgensen	Independent	207	0.84%
+Don Blankenship	Independent	42	0.17%
+Kanye West	Independent	32	0.13%
+Howie Hawkins	Independent	26	0.10%
+Roque "Rocky" De La Fuente	Independent	10	0.04%
+Alyson Kennedy	Independent	10	0.04%
+Gloria La Riva	Independent	8	0.03%
+Joseph R. Biden	Democratic	4,000	53.91%
+Donald J. Trump	Republican	3,338	44.99%
+Jo Jorgensen	Independent	31	0.42%
+Don Blankenship	Independent	15	0.20%
+Kanye West	Independent	15	0.20%
+Howie Hawkins	Independent	7	0.09%
+Alyson Kennedy	Independent	7	0.09%
+Roque "Rocky" De La Fuente	Independent	4	0.05%
+Gloria La Riva	Independent	3	0.04%
+Donald J. Trump	Republican	9,797	81.51%
+Joseph R. Biden	Democratic	2,092	17.40%
+Jo Jorgensen	Independent	80	0.67%
+Don Blankenship	Independent	17	0.14%
+Kanye West	Independent	14	0.12%
+Alyson Kennedy	Independent	7	0.06%
+Howie Hawkins	Independent	6	0.05%
+Roque "Rocky" De La Fuente	Independent	4	0.03%
+Gloria La Riva	Independent	3	0.02%
+Donald J. Trump	Republican	11,230	74.70%
+Joseph R. Biden	Democratic	3,547	23.59%
+Jo Jorgensen	Independent	164	1.09%
+Don Blankenship	Independent	25	0.17%
+Kanye West	Independent	24	0.16%
+Howie Hawkins	Independent	20	0.13%
+Roque "Rocky" De La Fuente	Independent	12	0.08%
+Alyson Kennedy	Independent	7	0.05%
+Gloria La Riva	Independent	5	0.03%
+Donald J. Trump	Republican	7,577	77.06%
+Joseph R. Biden	Democratic	2,130	21.66%
+Jo Jorgensen	Independent	74	0.75%
+Kanye West	Independent	17	0.17%
+Don Blankenship	Independent	15	0.15%
+Howie Hawkins	Independent	6	0.06%
+Roque "Rocky" De La Fuente	Independent	5	0.05%
+Alyson Kennedy	Independent	4	0.04%
+Gloria La Riva	Independent	4	0.04%
+Donald J. Trump	Republican	2,715	73.76%
+Joseph R. Biden	Democratic	869	23.61%
+Kanye West	Independent	38	1.03%
+Jo Jorgensen	Independent	18	0.49%
+Don Blankenship	Independent	14	0.38%
+Alyson Kennedy	Independent	13	0.35%
+Gloria La Riva	Independent	8	0.22%
+Roque "Rocky" De La Fuente	Independent	3	0.08%
+Howie Hawkins	Independent	3	0.08%
+Donald J. Trump	Republican	6,116	74.30%
+Joseph R. Biden	Democratic	2,017	24.50%
+Jo Jorgensen	Independent	46	0.56%
+Don Blankenship	Independent	20	0.24%
+Howie Hawkins	Independent	14	0.17%
+Kanye West	Independent	14	0.17%
+Roque "Rocky" De La Fuente	Independent	2	0.02%
+Alyson Kennedy	Independent	2	0.02%
+Gloria La Riva	Independent	1	0.01%
+Donald J. Trump	Republican	4,106	77.35%
+Joseph R. Biden	Democratic	1,133	21.35%
+Jo Jorgensen	Independent	48	0.90%
+Kanye West	Independent	6	0.11%
+Alyson Kennedy	Independent	5	0.09%
+Don Blankenship	Independent	4	0.08%
+Roque "Rocky" De La Fuente	Independent	3	0.06%
+Howie Hawkins	Independent	3	0.06%
+Gloria La Riva	Independent	0	0.00%
+Donald J. Trump	Republican	18,609	78.98%
+Joseph R. Biden	Democratic	4,645	19.71%
+Jo Jorgensen	Independent	184	0.78%
+Don Blankenship	Independent	45	0.19%
+Kanye West	Independent	35	0.15%
+Howie Hawkins	Independent	20	0.08%
+Roque "Rocky" De La Fuente	Independent	11	0.05%
+Alyson Kennedy	Independent	10	0.04%
+Gloria La Riva	Independent	3	0.01%
+Donald J. Trump	Republican	6,466	82.97%
+Joseph R. Biden	Democratic	1,242	15.94%
+Jo Jorgensen	Independent	45	0.58%
+Don Blankenship	Independent	13	0.17%
+Howie Hawkins	Independent	12	0.15%
+Kanye West	Independent	10	0.13%
+Alyson Kennedy	Independent	3	0.04%
+Roque "Rocky" De La Fuente	Independent	2	0.03%
+Gloria La Riva	Independent	0	0.00%
+Donald J. Trump	Republican	124,339	56.55%
+Joseph R. Biden	Democratic	91,097	41.43%
+Jo Jorgensen	Independent	2,876	1.31%
+Kanye West	Independent	466	0.21%
+Howie Hawkins	Independent	414	0.19%
+Don Blankenship	Independent	360	0.16%
+Roque "Rocky" De La Fuente	Independent	126	0.06%
+Alyson Kennedy	Independent	102	0.05%
+Gloria La Riva	Independent	89	0.04%
+Donald J. Trump	Republican	1,492	73.35%
+Joseph R. Biden	Democratic	526	25.86%
+Jo Jorgensen	Independent	9	0.44%
+Kanye West	Independent	5	0.25%
+Don Blankenship	Independent	1	0.05%
+Gloria La Riva	Independent	1	0.05%
+Roque "Rocky" De La Fuente	Independent	0	0.00%
+Howie Hawkins	Independent	0	0.00%
+Alyson Kennedy	Independent	0	0.00%
+Donald J. Trump	Republican	5,672	63.28%
+Joseph R. Biden	Democratic	3,193	35.62%
+Jo Jorgensen	Independent	49	0.55%
+Kanye West	Independent	18	0.20%
+Howie Hawkins	Independent	11	0.12%
+Don Blankenship	Independent	9	0.10%
+Alyson Kennedy	Independent	7	0.08%
+Roque "Rocky" De La Fuente	Independent	3	0.03%
+Gloria La Riva	Independent	1	0.01%
+Donald J. Trump	Republican	15,334	81.92%
+Joseph R. Biden	Democratic	3,195	17.07%
+Jo Jorgensen	Independent	116	0.62%
+Don Blankenship	Independent	27	0.14%
+Howie Hawkins	Independent	18	0.10%
+Kanye West	Independent	15	0.08%
+Alyson Kennedy	Independent	6	0.03%
+Gloria La Riva	Independent	5	0.03%
+Roque "Rocky" De La Fuente	Independent	2	0.01%
+Donald J. Trump	Republican	4,473	79.82%
+Joseph R. Biden	Democratic	1,068	19.06%
+Jo Jorgensen	Independent	27	0.48%
+Kanye West	Independent	15	0.27%
+Howie Hawkins	Independent	8	0.14%
+Alyson Kennedy	Independent	7	0.12%
+Don Blankenship	Independent	4	0.07%
+Gloria La Riva	Independent	2	0.04%
+Roque "Rocky" De La Fuente	Independent	0	0.00%
+Donald J. Trump	Republican	12,258	78.70%
+Joseph R. Biden	Democratic	2,909	18.68%
+Kanye West	Independent	147	0.94%
+Jo Jorgensen	Independent	126	0.81%
+Alyson Kennedy	Independent	41	0.26%
+Don Blankenship	Independent	33	0.21%
+Roque "Rocky" De La Fuente	Independent	23	0.15%
+Howie Hawkins	Independent	23	0.15%
+Gloria La Riva	Independent	15	0.10%
+Donald J. Trump	Republican	21,684	74.02%
+Joseph R. Biden	Democratic	6,933	23.67%
+Jo Jorgensen	Independent	270	0.92%
+Kanye West	Independent	181	0.62%
+Don Blankenship	Independent	76	0.26%
+Alyson Kennedy	Independent	55	0.19%
+Howie Hawkins	Independent	49	0.17%
+Gloria La Riva	Independent	32	0.11%
+Roque "Rocky" De La Fuente	Independent	16	0.05%
+Donald J. Trump	Republican	8,095	85.34%
+Joseph R. Biden	Democratic	1,307	13.78%
+Jo Jorgensen	Independent	43	0.45%
+Don Blankenship	Independent	15	0.16%
+Howie Hawkins	Independent	10	0.11%
+Kanye West	Independent	9	0.09%
+Roque "Rocky" De La Fuente	Independent	4	0.04%
+Alyson Kennedy	Independent	3	0.03%
+Gloria La Riva	Independent	0	0.00%
+Donald J. Trump	Republican	23,922	55.83%
+Joseph R. Biden	Democratic	18,309	42.73%
+Jo Jorgensen	Independent	327	0.76%
+Kanye West	Independent	83	0.19%
+Don Blankenship	Independent	74	0.17%
+Howie Hawkins	Independent	48	0.11%
+Alyson Kennedy	Independent	35	0.08%
+Roque "Rocky" De La Fuente	Independent	26	0.06%
+Gloria La Riva	Independent	23	0.05%
+Donald J. Trump	Republican	9,873	74.77%
+Joseph R. Biden	Democratic	3,165	23.97%
+Jo Jorgensen	Independent	92	0.70%
+Don Blankenship	Independent	29	0.22%
+Howie Hawkins	Independent	20	0.15%
+Kanye West	Independent	16	0.12%
+Roque "Rocky" De La Fuente	Independent	4	0.03%
+Alyson Kennedy	Independent	3	0.02%
+Gloria La Riva	Independent	2	0.02%
+Donald J. Trump	Republican	11,029	74.21%
+Joseph R. Biden	Democratic	3,603	24.24%
+Jo Jorgensen	Independent	126	0.85%
+Kanye West	Independent	34	0.23%
+Howie Hawkins	Independent	32	0.22%
+Don Blankenship	Independent	14	0.09%
+Alyson Kennedy	Independent	13	0.09%
+Gloria La Riva	Independent	6	0.04%
+Roque "Rocky" De La Fuente	Independent	5	0.03%
+Donald J. Trump	Republican	31,408	67.46%
+Joseph R. Biden	Democratic	14,386	30.90%
+Jo Jorgensen	Independent	485	1.04%
+Kanye West	Independent	92	0.20%
+Don Blankenship	Independent	71	0.15%
+Howie Hawkins	Independent	57	0.12%
+Roque "Rocky" De La Fuente	Independent	27	0.06%
+Alyson Kennedy	Independent	25	0.05%
+Gloria La Riva	Independent	10	0.02%
+Donald J. Trump	Republican	18,175	79.66%
+Joseph R. Biden	Democratic	4,357	19.10%
+Jo Jorgensen	Independent	182	0.80%
+Don Blankenship	Independent	33	0.14%
+Kanye West	Independent	29	0.13%
+Howie Hawkins	Independent	22	0.10%
+Roque "Rocky" De La Fuente	Independent	8	0.04%
+Gloria La Riva	Independent	5	0.02%
+Alyson Kennedy	Independent	4	0.02%
+Donald J. Trump	Republican	9,085	80.63%
+Joseph R. Biden	Democratic	1,943	17.25%
+Kanye West	Independent	93	0.83%
+Jo Jorgensen	Independent	56	0.50%
+Alyson Kennedy	Independent	33	0.29%
+Don Blankenship	Independent	22	0.20%
+Howie Hawkins	Independent	15	0.13%
+Gloria La Riva	Independent	15	0.13%
+Roque "Rocky" De La Fuente	Independent	5	0.04%
+Donald J. Trump	Republican	4,464	80.74%
+Joseph R. Biden	Democratic	1,008	18.23%
+Jo Jorgensen	Independent	34	0.61%
+Don Blankenship	Independent	11	0.20%
+Kanye West	Independent	6	0.11%
+Howie Hawkins	Independent	5	0.09%
+Roque "Rocky" De La Fuente	Independent	1	0.02%
+Alyson Kennedy	Independent	0	0.00%
+Gloria La Riva	Independent	0	0.00%
+Donald J. Trump	Republican	16,742	80.69%
+Joseph R. Biden	Democratic	3,760	18.12%
+Jo Jorgensen	Independent	149	0.72%
+Don Blankenship	Independent	37	0.18%
+Howie Hawkins	Independent	24	0.12%
+Kanye West	Independent	24	0.12%
+Roque "Rocky" De La Fuente	Independent	8	0.04%
+Alyson Kennedy	Independent	3	0.01%
+Gloria La Riva	Independent	2	0.01%
+Donald J. Trump	Republican	42,156	54.98%
+Joseph R. Biden	Democratic	32,426	42.29%
+Jo Jorgensen	Independent	1,439	1.88%
+Kanye West	Independent	201	0.26%
+Howie Hawkins	Independent	149	0.19%
+Don Blankenship	Independent	138	0.18%
+Roque "Rocky" De La Fuente	Independent	68	0.09%
+Alyson Kennedy	Independent	62	0.08%
+Gloria La Riva	Independent	39	0.05%
+Donald J. Trump	Republican	2,888	81.60%
+Joseph R. Biden	Democratic	573	16.19%
+Jo Jorgensen	Independent	30	0.85%
+Kanye West	Independent	25	0.71%
+Don Blankenship	Independent	11	0.31%
+Howie Hawkins	Independent	5	0.14%
+Alyson Kennedy	Independent	4	0.11%
+Gloria La Riva	Independent	2	0.06%
+Roque "Rocky" De La Fuente	Independent	1	0.03%
+Donald J. Trump	Republican	6,926	84.28%
+Joseph R. Biden	Democratic	1,161	14.13%
+Jo Jorgensen	Independent	91	1.11%
+Kanye West	Independent	13	0.16%
+Don Blankenship	Independent	7	0.09%
+Howie Hawkins	Independent	7	0.09%
+Roque "Rocky" De La Fuente	Independent	5	0.06%
+Alyson Kennedy	Independent	4	0.05%
+Gloria La Riva	Independent	4	0.05%
+Donald J. Trump	Republican	10,790	79.80%
+Joseph R. Biden	Democratic	2,589	19.15%
+Jo Jorgensen	Independent	68	0.50%
+Don Blankenship	Independent	27	0.20%
+Kanye West	Independent	21	0.16%
+Howie Hawkins	Independent	11	0.08%
+Alyson Kennedy	Independent	8	0.06%
+Roque "Rocky" De La Fuente	Independent	4	0.03%
+Gloria La Riva	Independent	3	0.02%
+Donald J. Trump	Republican	7,911	78.91%
+Joseph R. Biden	Democratic	2,028	20.23%
+Jo Jorgensen	Independent	47	0.47%
+Don Blankenship	Independent	17	0.17%
+Howie Hawkins	Independent	12	0.12%
+Alyson Kennedy	Independent	4	0.04%
+Kanye West	Independent	4	0.04%
+Roque "Rocky" De La Fuente	Independent	2	0.02%
+Gloria La Riva	Independent	0	0.00%
+Donald J. Trump	Republican	2,775	80.95%
+Joseph R. Biden	Democratic	615	17.94%
+Jo Jorgensen	Independent	20	0.58%
+Howie Hawkins	Independent	11	0.32%
+Don Blankenship	Independent	3	0.09%
+Kanye West	Independent	3	0.09%
+Alyson Kennedy	Independent	1	0.03%
+Roque "Rocky" De La Fuente	Independent	0	0.00%
+Gloria La Riva	Independent	0	0.00%
+Donald J. Trump	Republican	2,373	81.21%
+Joseph R. Biden	Democratic	524	17.93%
+Jo Jorgensen	Independent	11	0.38%
+Kanye West	Independent	7	0.24%
+Don Blankenship	Independent	2	0.07%
+Howie Hawkins	Independent	2	0.07%
+Gloria La Riva	Independent	2	0.07%
+Alyson Kennedy	Independent	1	0.03%
+Roque "Rocky" De La Fuente	Independent	0	0.00%
+Donald J. Trump	Republican	6,792	81.24%
+Joseph R. Biden	Democratic	1,492	17.85%
+Jo Jorgensen	Independent	43	0.51%
+Kanye West	Independent	14	0.17%
+Don Blankenship	Independent	6	0.07%
+Howie Hawkins	Independent	5	0.06%
+Alyson Kennedy	Independent	5	0.06%
+Roque "Rocky" De La Fuente	Independent	2	0.02%
+Gloria La Riva	Independent	1	0.01%
+Donald J. Trump	Republican	23,694	70.77%
+Joseph R. Biden	Democratic	9,154	27.34%
+Jo Jorgensen	Independent	428	1.28%
+Howie Hawkins	Independent	64	0.19%
+Don Blankenship	Independent	50	0.15%
+Kanye West	Independent	48	0.14%
+Roque "Rocky" De La Fuente	Independent	19	0.06%
+Alyson Kennedy	Independent	14	0.04%
+Gloria La Riva	Independent	10	0.03%
+Donald J. Trump	Republican	11,031	81.06%
+Joseph R. Biden	Democratic	2,363	17.36%
+Jo Jorgensen	Independent	129	0.95%
+Kanye West	Independent	28	0.21%
+Don Blankenship	Independent	23	0.17%
+Howie Hawkins	Independent	17	0.12%
+Alyson Kennedy	Independent	9	0.07%
+Roque "Rocky" De La Fuente	Independent	5	0.04%
+Gloria La Riva	Independent	3	0.02%
+Donald J. Trump	Republican	19,195	74.20%
+Joseph R. Biden	Democratic	6,034	23.33%
+Jo Jorgensen	Independent	307	1.19%
+Kanye West	Independent	143	0.55%
+Don Blankenship	Independent	57	0.22%
+Howie Hawkins	Independent	45	0.17%
+Alyson Kennedy	Independent	43	0.17%
+Gloria La Riva	Independent	28	0.11%
+Roque "Rocky" De La Fuente	Independent	16	0.06%
+Donald J. Trump	Republican	24,535	72.78%
+Joseph R. Biden	Democratic	8,690	25.78%
+Jo Jorgensen	Independent	300	0.89%
+Kanye West	Independent	60	0.18%
+Don Blankenship	Independent	48	0.14%
+Howie Hawkins	Independent	39	0.12%
+Alyson Kennedy	Independent	17	0.05%
+Roque "Rocky" De La Fuente	Independent	15	0.04%
+Gloria La Riva	Independent	8	0.02%
+Donald J. Trump	Republican	81,373	56.66%
+Joseph R. Biden	Democratic	59,189	41.22%
+Jo Jorgensen	Independent	1,844	1.28%
+Kanye West	Independent	439	0.31%
+Howie Hawkins	Independent	279	0.19%
+Don Blankenship	Independent	235	0.16%
+Alyson Kennedy	Independent	104	0.07%
+Roque "Rocky" De La Fuente	Independent	87	0.06%
+Gloria La Riva	Independent	54	0.04%
+Donald J. Trump	Republican	8,004	88.42%
+Joseph R. Biden	Democratic	986	10.89%
+Jo Jorgensen	Independent	32	0.35%
+Kanye West	Independent	15	0.17%
+Don Blankenship	Independent	7	0.08%
+Alyson Kennedy	Independent	5	0.06%
+Howie Hawkins	Independent	2	0.02%
+Roque "Rocky" De La Fuente	Independent	1	0.01%
+Gloria La Riva	Independent	0	0.00%
+Donald J. Trump	Republican	5,846	80.76%
+Joseph R. Biden	Democratic	1,295	17.89%
+Jo Jorgensen	Independent	64	0.88%
+Kanye West	Independent	14	0.19%
+Howie Hawkins	Independent	11	0.15%
+Don Blankenship	Independent	5	0.07%
+Alyson Kennedy	Independent	3	0.04%
+Gloria La Riva	Independent	1	0.01%
+Roque "Rocky" De La Fuente	Independent	0	0.00%
+Donald J. Trump	Republican	33,742	77.63%
+Joseph R. Biden	Democratic	8,695	20.00%
+Jo Jorgensen	Independent	402	0.92%
+Kanye West	Independent	306	0.70%
+Don Blankenship	Independent	111	0.26%
+Alyson Kennedy	Independent	83	0.19%
+Howie Hawkins	Independent	57	0.13%
+Gloria La Riva	Independent	46	0.11%
+Roque "Rocky" De La Fuente	Independent	23	0.05%
+Joseph R. Biden	Democratic	245,208	64.41%
+Donald J. Trump	Republican	129,543	34.03%
+Jo Jorgensen	Independent	2,418	0.64%
+Kanye West	Independent	1,598	0.42%
+Don Blankenship	Independent	669	0.18%
+Howie Hawkins	Independent	574	0.15%
+Alyson Kennedy	Independent	240	0.06%
+Gloria La Riva	Independent	229	0.06%
+Roque "Rocky" De La Fuente	Independent	219	0.06%
+Donald J. Trump	Republican	7,124	78.85%
+Joseph R. Biden	Democratic	1,798	19.90%
+Jo Jorgensen	Independent	62	0.69%
+Don Blankenship	Independent	19	0.21%
+Howie Hawkins	Independent	11	0.12%
+Kanye West	Independent	9	0.10%
+Alyson Kennedy	Independent	7	0.08%
+Roque "Rocky" De La Fuente	Independent	3	0.03%
+Gloria La Riva	Independent	2	0.02%
+Donald J. Trump	Republican	4,942	78.66%
+Joseph R. Biden	Democratic	1,230	19.58%
+Jo Jorgensen	Independent	65	1.03%
+Kanye West	Independent	12	0.19%
+Howie Hawkins	Independent	11	0.18%
+Don Blankenship	Independent	9	0.14%
+Alyson Kennedy	Independent	6	0.10%
+Gloria La Riva	Independent	6	0.10%
+Roque "Rocky" De La Fuente	Independent	2	0.03%
+Donald J. Trump	Republican	55,774	75.16%
+Joseph R. Biden	Democratic	17,226	23.21%
+Jo Jorgensen	Independent	773	1.04%
+Kanye West	Independent	135	0.18%
+Don Blankenship	Independent	122	0.16%
+Howie Hawkins	Independent	89	0.12%
+Roque "Rocky" De La Fuente	Independent	35	0.05%
+Alyson Kennedy	Independent	32	0.04%
+Gloria La Riva	Independent	20	0.03%
+Donald J. Trump	Republican	63,404	68.52%
+Joseph R. Biden	Democratic	27,630	29.86%
+Jo Jorgensen	Independent	940	1.02%
+Kanye West	Independent	174	0.19%
+Don Blankenship	Independent	136	0.15%
+Howie Hawkins	Independent	112	0.12%
+Alyson Kennedy	Independent	59	0.06%
+Roque "Rocky" De La Fuente	Independent	49	0.05%
+Gloria La Riva	Independent	25	0.03%
+Donald J. Trump	Republican	20,063	73.52%
+Joseph R. Biden	Democratic	6,832	25.03%
+Jo Jorgensen	Independent	224	0.82%
+Kanye West	Independent	55	0.20%
+Don Blankenship	Independent	46	0.17%
+Howie Hawkins	Independent	28	0.10%
+Alyson Kennedy	Independent	21	0.08%
+Roque "Rocky" De La Fuente	Independent	13	0.05%
+Gloria La Riva	Independent	9	0.03%
+Donald J. Trump	Republican	2,930	73.42%
+Joseph R. Biden	Democratic	1,011	25.33%
+Jo Jorgensen	Independent	35	0.88%
+Kanye West	Independent	9	0.23%
+Don Blankenship	Independent	2	0.05%
+Howie Hawkins	Independent	2	0.05%
+Alyson Kennedy	Independent	2	0.05%
+Roque "Rocky" De La Fuente	Independent	0	0.00%
+Gloria La Riva	Independent	0	0.00%
+Donald J. Trump	Republican	6,593	79.49%
+Joseph R. Biden	Democratic	1,610	19.41%
+Jo Jorgensen	Independent	50	0.60%
+Don Blankenship	Independent	15	0.18%
+Kanye West	Independent	14	0.17%
+Howie Hawkins	Independent	6	0.07%
+Alyson Kennedy	Independent	3	0.04%
+Roque "Rocky" De La Fuente	Independent	2	0.02%
+Gloria La Riva	Independent	1	0.01%
+Donald J. Trump	Republican	6,777	83.71%
+Joseph R. Biden	Democratic	1,248	15.42%
+Jo Jorgensen	Independent	44	0.54%
+Don Blankenship	Independent	9	0.11%
+Kanye West	Independent	8	0.10%
+Howie Hawkins	Independent	6	0.07%
+Roque "Rocky" De La Fuente	Independent	2	0.02%
+Alyson Kennedy	Independent	2	0.02%
+Gloria La Riva	Independent	0	0.00%
+Donald J. Trump	Republican	2,338	80.15%
+Joseph R. Biden	Democratic	544	18.65%
+Jo Jorgensen	Independent	23	0.79%
+Kanye West	Independent	6	0.21%
+Howie Hawkins	Independent	2	0.07%
+Alyson Kennedy	Independent	2	0.07%
+Don Blankenship	Independent	1	0.03%
+Roque "Rocky" De La Fuente	Independent	1	0.03%
+Gloria La Riva	Independent	0	0.00%
+Donald J. Trump	Republican	12,323	73.83%
+Joseph R. Biden	Democratic	4,126	24.72%
+Jo Jorgensen	Independent	125	0.75%
+Kanye West	Independent	43	0.26%
+Howie Hawkins	Independent	25	0.15%
+Don Blankenship	Independent	23	0.14%
+Alyson Kennedy	Independent	10	0.06%
+Roque "Rocky" De La Fuente	Independent	9	0.05%
+Gloria La Riva	Independent	8	0.05%
+Donald J. Trump	Republican	40,120	67.51%
+Joseph R. Biden	Democratic	18,214	30.65%
+Jo Jorgensen	Independent	659	1.11%
+Kanye West	Independent	105	0.18%
+Don Blankenship	Independent	103	0.17%
+Howie Hawkins	Independent	103	0.17%
+Alyson Kennedy	Independent	50	0.08%
+Gloria La Riva	Independent	43	0.07%
+Roque "Rocky" De La Fuente	Independent	33	0.06%
+Donald J. Trump	Republican	5,795	86.92%
+Joseph R. Biden	Democratic	820	12.30%
+Jo Jorgensen	Independent	27	0.40%
+Don Blankenship	Independent	11	0.16%
+Howie Hawkins	Independent	5	0.07%
+Kanye West	Independent	4	0.06%
+Roque "Rocky" De La Fuente	Independent	2	0.03%
+Alyson Kennedy	Independent	2	0.03%
+Gloria La Riva	Independent	1	0.01%
+Donald J. Trump	Republican	10,382	75.73%
+Joseph R. Biden	Democratic	3,011	21.96%
+Kanye West	Independent	111	0.81%
+Jo Jorgensen	Independent	82	0.60%
+Alyson Kennedy	Independent	34	0.25%
+Don Blankenship	Independent	31	0.23%
+Howie Hawkins	Independent	28	0.20%
+Gloria La Riva	Independent	19	0.14%
+Roque "Rocky" De La Fuente	Independent	12	0.09%
+Donald J. Trump	Republican	9,587	80.79%
+Joseph R. Biden	Democratic	2,134	17.98%
+Jo Jorgensen	Independent	106	0.89%
+Don Blankenship	Independent	14	0.12%
+Kanye West	Independent	13	0.11%
+Howie Hawkins	Independent	9	0.08%
+Alyson Kennedy	Independent	3	0.03%
+Roque "Rocky" De La Fuente	Independent	1	0.01%
+Gloria La Riva	Independent	0	0.00%
+Donald J. Trump	Republican	86,469	62.24%
+Joseph R. Biden	Democratic	50,161	36.10%
+Jo Jorgensen	Independent	1,494	1.08%
+Don Blankenship	Independent	276	0.20%
+Kanye West	Independent	257	0.18%
+Howie Hawkins	Independent	116	0.08%
+Roque "Rocky" De La Fuente	Independent	88	0.06%
+Alyson Kennedy	Independent	37	0.03%
+Gloria La Riva	Independent	34	0.02%
+Donald J. Trump	Republican	50,149	67.68%
+Joseph R. Biden	Democratic	22,197	29.96%
+Jo Jorgensen	Independent	778	1.05%
+Kanye West	Independent	446	0.60%
+Don Blankenship	Independent	162	0.22%
+Alyson Kennedy	Independent	126	0.17%
+Gloria La Riva	Independent	102	0.14%
+Howie Hawkins	Independent	81	0.11%
+Roque "Rocky" De La Fuente	Independent	51	0.07%

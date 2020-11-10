@@ -12,8 +12,9 @@ const converter_1 = require('./converters/converter_1.js');
 const converter_2 = require('./converters/converter_2.js');
 const converter_3 = require('./converters/converter_3.js');
 const converter_4 = require('./converters/converter_4.js');
+const converter_5 = require('./converters/converter_5.js');
 
-const configsForLocations = [
+let configsForLocations = [
     {
         jsonFilePath: './dump/milwaukee/vote-count/milwaukee.json',
         fieldsToDelete: ['field1', 'field8'],
@@ -100,7 +101,7 @@ const configsForLocations = [
                 {
                     converter: 'converter_3',
                     options: {
-                        limitCandidates: 3
+                        limitCandidates: 2
                     }
                 }
             ],
@@ -144,6 +145,7 @@ const configsForLocations = [
             output: './dump/colorado/vote-count/colorado-election-day-votes.json'
         },
         jsonFilePath: './dump/colorado/vote-count/colorado-election-day-votes.json',
+        limitCandidates: 2,
         outputGraphPath: path.join(__dirname, 'dump', 'colorado', 'vote-count', 'colorado-election-day-votes-graph.png')
     },
 
@@ -278,7 +280,43 @@ const configsForLocations = [
         limitCandidates: 2,
         outputGraphPath: path.join(__dirname, 'dump', 'kentucky', 'vote-count', 'kentucky-election-day-votes-graph.png')
     },
+
+
+    {
+        mapJson: {
+            input: './dump/tennessee/vote-count/tennessee_parsing.json',
+            mappers: [
+                {
+                    converter: 'converter_5',
+                    options: {
+                        limitCandidates: 2
+                    }
+                }
+            ],
+            output: './dump/tennessee/vote-count/tennessee.json'
+        },
+        jsonFilePath: './dump/tennessee/vote-count/tennessee.json',
+        limitCandidates: 2,
+        outputGraphPath: path.join(__dirname, 'dump', 'tennessee', 'vote-count', 'tennessee-graph.png')
+    },
 ];
+
+const configsForLocationsContainsOnly = configsForLocations.some(function (item) {
+    if (item.only) {
+        return true;
+    } else {
+        return false;
+    }
+});
+if (configsForLocationsContainsOnly) {
+    configsForLocations = configsForLocations.filter(function (item) {
+        if (item.only) {
+            return true;
+        } else {
+            return false;
+        }
+    });
+}
 
 const fromBase = 3;
 const toBase = 10;
@@ -331,6 +369,8 @@ for (let base = fromBase; base <= toBase; base++) {
                     inputJson = converter_3(inputJson, mapper.options);
                 } else if (mapper.converter === 'converter_4') {
                     inputJson = converter_4(inputJson, mapper.options);
+                } else if (mapper.converter === 'converter_5') {
+                    inputJson = converter_5(inputJson, mapper.options);
                 }
             }
 
@@ -505,6 +545,9 @@ for (let base = fromBase; base <= toBase; base++) {
             let filePath = configForLocation.outputGraphPath;
             if (base !== 10) {
                 filePath = filePath.replace(/\.png$/, `-base-${base}.png`);
+            }
+            if (base === 10) {
+                console.log(`(Sample size: ${voteCountEntriesForLocation.length})`);
             }
             try {
                 fs.writeFileSync(filePath, image);

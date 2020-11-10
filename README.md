@@ -20,7 +20,7 @@ npm start # This would generate graphs from the processed data
 
 # Generated graphs
 
-## Milwaukee, Wisconsin
+## Milwaukee, Wisconsin (Sample size: 478)
 <img width="838" alt="Milwaukee" src="dump/milwaukee/vote-count/milwaukee-graph.png">
 
 <details>
@@ -52,7 +52,7 @@ npm start # This would generate graphs from the processed data
   <p><img width="838" alt="Milwaukee - Base 9" src="dump/milwaukee/vote-count/milwaukee-graph-base-9.png"></p>
 </details>
 
-## Chicago, Illinois
+## Chicago, Illinois (Sample size: 2069)
 <img width="838" alt="Chicago" src="dump/chicago/vote-count/chicago-graph.png">
 
 <details>
@@ -85,16 +85,16 @@ npm start # This would generate graphs from the processed data
 </details>
 
 
-## Nebraska
+## Nebraska (Sample size: 93)
 <img width="838" alt="Nebraska" src="dump/nebraska/vote-count/nebraska-graph.png">
 
-## Michigan
+## Michigan (Sample size: 83)
 <img width="838" alt="Michigan" src="dump/michigan/vote-count/michigan-graph.png">
 
-## Colorado
+## Colorado (Sample size: 64)
 <img width="838" alt="Colorado" src="dump/colorado/vote-count/colorado-election-day-votes-graph.png">
 
-## Georgia
+## Georgia (Sample size: 159)
 
 ### Georgia - Election day votes
 <img width="838" alt="Georgia - Election day votes" src="dump/georgia/vote-count/georgia-election-day-votes-graph.png">
@@ -115,11 +115,11 @@ npm start # This would generate graphs from the processed data
 </details>
 
 
-## Alabama
+## Alabama (Sample size: 67)
 <img width="838" alt="Alabama" src="dump/alabama/vote-count/alabama-graph.png">
 
 
-## Iowa
+## Iowa (Sample size: 99)
 
 ### Iowa - Election day votes
 <img width="838" alt="Iowa" src="dump/iowa/vote-count/iowa-election-day-votes-graph.png">
@@ -130,9 +130,13 @@ npm start # This would generate graphs from the processed data
 </details>
 
 
-## Kentucky - Election day votes
+## Kentucky - Election day votes (Sample size: 120)
 <img width="838" alt="Kentucky" src="dump/kentucky/vote-count/kentucky-election-day-votes-graph.png">
 
 
-## Washington
+## Tennessee (Sample size: 95)
+<img width="838" alt="Tennessee" src="dump/tennessee/vote-count/tennessee-graph.png">
+
+
+## Washington (Sample size: 4834)
 <img width="838" alt="Washington" src="dump/washington/vote-count/washington-graph.png">

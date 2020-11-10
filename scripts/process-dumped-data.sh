@@ -55,3 +55,8 @@ mv detail.xml kentucky.xml
 ../../../node_modules/.bin/xml-js kentucky.xml --spaces 4 --out kentucky_converted.json
 jq '.elements[1].elements[5].elements' kentucky_converted.json > kentucky_parsing.json
 cd ../../../
+
+cd ./dump/tennessee/vote-count/
+grep -P '\t' tennessee.txt > tennessee_parsed.txt
+../../../node_modules/.bin/csvtojson --flatKeys=true --delimiter=auto --noheader=true ./tennessee_parsed.txt > ./tennessee_parsing.json
+cd ../../../
