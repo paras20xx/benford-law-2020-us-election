@@ -1,0 +1,6118 @@
+[
+  {
+    "type": "element",
+    "name": "ParticipatingCounties",
+    "elements": [
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Adair",
+          "precinctsParticipating": "1",
+          "precinctsReported": "1",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Allen",
+          "precinctsParticipating": "1",
+          "precinctsReported": "1",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Anderson",
+          "precinctsParticipating": "1",
+          "precinctsReported": "1",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Ballard",
+          "precinctsParticipating": "1",
+          "precinctsReported": "1",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Barren",
+          "precinctsParticipating": "1",
+          "precinctsReported": "1",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Bath",
+          "precinctsParticipating": "12",
+          "precinctsReported": "12",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Bell",
+          "precinctsParticipating": "30",
+          "precinctsReported": "30",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Boone",
+          "precinctsParticipating": "1",
+          "precinctsReported": "1",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Bourbon",
+          "precinctsParticipating": "1",
+          "precinctsReported": "1",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Boyd",
+          "precinctsParticipating": "2",
+          "precinctsReported": "2",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Boyle",
+          "precinctsParticipating": "1",
+          "precinctsReported": "1",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Bracken",
+          "precinctsParticipating": "14",
+          "precinctsReported": "14",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Breathitt",
+          "precinctsParticipating": "4",
+          "precinctsReported": "4",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Breckinridge",
+          "precinctsParticipating": "1",
+          "precinctsReported": "1",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Bullitt",
+          "precinctsParticipating": "1",
+          "precinctsReported": "1",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Butler",
+          "precinctsParticipating": "1",
+          "precinctsReported": "1",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Caldwell",
+          "precinctsParticipating": "1",
+          "precinctsReported": "1",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Calloway",
+          "precinctsParticipating": "1",
+          "precinctsReported": "1",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Campbell",
+          "precinctsParticipating": "1",
+          "precinctsReported": "1",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Carlisle",
+          "precinctsParticipating": "1",
+          "precinctsReported": "1",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Carroll",
+          "precinctsParticipating": "11",
+          "precinctsReported": "11",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Carter",
+          "precinctsParticipating": "1",
+          "precinctsReported": "1",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Casey",
+          "precinctsParticipating": "1",
+          "precinctsReported": "1",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Christian",
+          "precinctsParticipating": "1",
+          "precinctsReported": "1",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Clark",
+          "precinctsParticipating": "1",
+          "precinctsReported": "1",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Clay",
+          "precinctsParticipating": "4",
+          "precinctsReported": "4",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Clinton",
+          "precinctsParticipating": "4",
+          "precinctsReported": "4",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Crittenden",
+          "precinctsParticipating": "1",
+          "precinctsReported": "1",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Cumberland",
+          "precinctsParticipating": "1",
+          "precinctsReported": "1",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Daviess",
+          "precinctsParticipating": "1",
+          "precinctsReported": "1",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Edmonson",
+          "precinctsParticipating": "1",
+          "precinctsReported": "1",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Elliott",
+          "precinctsParticipating": "7",
+          "precinctsReported": "7",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Estill",
+          "precinctsParticipating": "8",
+          "precinctsReported": "8",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Fayette",
+          "precinctsParticipating": "79",
+          "precinctsReported": "79",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Fleming",
+          "precinctsParticipating": "1",
+          "precinctsReported": "1",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Floyd",
+          "precinctsParticipating": "1",
+          "precinctsReported": "1",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Franklin",
+          "precinctsParticipating": "1",
+          "precinctsReported": "1",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Fulton",
+          "precinctsParticipating": "1",
+          "precinctsReported": "1",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Gallatin",
+          "precinctsParticipating": "1",
+          "precinctsReported": "1",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Garrard",
+          "precinctsParticipating": "1",
+          "precinctsReported": "1",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Grant",
+          "precinctsParticipating": "1",
+          "precinctsReported": "1",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Graves",
+          "precinctsParticipating": "1",
+          "precinctsReported": "1",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Grayson",
+          "precinctsParticipating": "1",
+          "precinctsReported": "1",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Green",
+          "precinctsParticipating": "1",
+          "precinctsReported": "1",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Greenup",
+          "precinctsParticipating": "1",
+          "precinctsReported": "1",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Hancock",
+          "precinctsParticipating": "1",
+          "precinctsReported": "1",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Hardin",
+          "precinctsParticipating": "1",
+          "precinctsReported": "1",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Harlan",
+          "precinctsParticipating": "17",
+          "precinctsReported": "17",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Harrison",
+          "precinctsParticipating": "18",
+          "precinctsReported": "18",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Hart",
+          "precinctsParticipating": "11",
+          "precinctsReported": "11",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Henderson",
+          "precinctsParticipating": "14",
+          "precinctsReported": "14",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Henry",
+          "precinctsParticipating": "1",
+          "precinctsReported": "1",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Hickman",
+          "precinctsParticipating": "1",
+          "precinctsReported": "1",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Hopkins",
+          "precinctsParticipating": "1",
+          "precinctsReported": "1",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Jackson",
+          "precinctsParticipating": "4",
+          "precinctsReported": "4",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Jefferson",
+          "precinctsParticipating": "623",
+          "precinctsReported": "623",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Jessamine",
+          "precinctsParticipating": "2",
+          "precinctsReported": "2",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Johnson",
+          "precinctsParticipating": "1",
+          "precinctsReported": "1",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Kenton",
+          "precinctsParticipating": "1",
+          "precinctsReported": "1",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Knott",
+          "precinctsParticipating": "1",
+          "precinctsReported": "1",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Knox",
+          "precinctsParticipating": "4",
+          "precinctsReported": "4",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Larue",
+          "precinctsParticipating": "1",
+          "precinctsReported": "1",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Laurel",
+          "precinctsParticipating": "4",
+          "precinctsReported": "4",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Lawrence",
+          "precinctsParticipating": "1",
+          "precinctsReported": "1",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Lee",
+          "precinctsParticipating": "10",
+          "precinctsReported": "10",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Leslie",
+          "precinctsParticipating": "1",
+          "precinctsReported": "1",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Letcher",
+          "precinctsParticipating": "4",
+          "precinctsReported": "4",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Lewis",
+          "precinctsParticipating": "14",
+          "precinctsReported": "14",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Lincoln",
+          "precinctsParticipating": "10",
+          "precinctsReported": "10",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Livingston",
+          "precinctsParticipating": "1",
+          "precinctsReported": "1",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Logan",
+          "precinctsParticipating": "23",
+          "precinctsReported": "23",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Lyon",
+          "precinctsParticipating": "1",
+          "precinctsReported": "1",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Madison",
+          "precinctsParticipating": "4",
+          "precinctsReported": "4",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Magoffin",
+          "precinctsParticipating": "1",
+          "precinctsReported": "1",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Marion",
+          "precinctsParticipating": "1",
+          "precinctsReported": "1",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Marshall",
+          "precinctsParticipating": "12",
+          "precinctsReported": "12",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Martin",
+          "precinctsParticipating": "1",
+          "precinctsReported": "1",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Mason",
+          "precinctsParticipating": "1",
+          "precinctsReported": "1",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "McCracken",
+          "precinctsParticipating": "1",
+          "precinctsReported": "1",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "McCreary",
+          "precinctsParticipating": "1",
+          "precinctsReported": "1",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "McLean",
+          "precinctsParticipating": "1",
+          "precinctsReported": "1",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Meade",
+          "precinctsParticipating": "11",
+          "precinctsReported": "11",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Menifee",
+          "precinctsParticipating": "1",
+          "precinctsReported": "1",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Mercer",
+          "precinctsParticipating": "1",
+          "precinctsReported": "1",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Metcalfe",
+          "precinctsParticipating": "1",
+          "precinctsReported": "1",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Monroe",
+          "precinctsParticipating": "1",
+          "precinctsReported": "1",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Montgomery",
+          "precinctsParticipating": "1",
+          "precinctsReported": "1",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Morgan",
+          "precinctsParticipating": "4",
+          "precinctsReported": "4",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Muhlenberg",
+          "precinctsParticipating": "1",
+          "precinctsReported": "1",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Nelson",
+          "precinctsParticipating": "1",
+          "precinctsReported": "1",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Nicholas",
+          "precinctsParticipating": "10",
+          "precinctsReported": "10",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Ohio",
+          "precinctsParticipating": "1",
+          "precinctsReported": "1",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Oldham",
+          "precinctsParticipating": "1",
+          "precinctsReported": "1",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Owen",
+          "precinctsParticipating": "1",
+          "precinctsReported": "1",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Owsley",
+          "precinctsParticipating": "1",
+          "precinctsReported": "1",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Pendleton",
+          "precinctsParticipating": "9",
+          "precinctsReported": "9",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Perry",
+          "precinctsParticipating": "1",
+          "precinctsReported": "1",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Pike",
+          "precinctsParticipating": "1",
+          "precinctsReported": "1",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Powell",
+          "precinctsParticipating": "1",
+          "precinctsReported": "1",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Pulaski",
+          "precinctsParticipating": "1",
+          "precinctsReported": "1",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Robertson",
+          "precinctsParticipating": "1",
+          "precinctsReported": "1",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Rockcastle",
+          "precinctsParticipating": "1",
+          "precinctsReported": "1",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Rowan",
+          "precinctsParticipating": "1",
+          "precinctsReported": "1",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Russell",
+          "precinctsParticipating": "1",
+          "precinctsReported": "1",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Scott",
+          "precinctsParticipating": "1",
+          "precinctsReported": "1",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Shelby",
+          "precinctsParticipating": "11",
+          "precinctsReported": "11",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Simpson",
+          "precinctsParticipating": "1",
+          "precinctsReported": "1",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Spencer",
+          "precinctsParticipating": "2",
+          "precinctsReported": "2",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Taylor",
+          "precinctsParticipating": "1",
+          "precinctsReported": "1",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Todd",
+          "precinctsParticipating": "1",
+          "precinctsReported": "1",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Trigg",
+          "precinctsParticipating": "1",
+          "precinctsReported": "1",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Trimble",
+          "precinctsParticipating": "10",
+          "precinctsReported": "10",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Union",
+          "precinctsParticipating": "1",
+          "precinctsReported": "1",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Warren",
+          "precinctsParticipating": "1",
+          "precinctsReported": "1",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Washington",
+          "precinctsParticipating": "2",
+          "precinctsReported": "2",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Wayne",
+          "precinctsParticipating": "1",
+          "precinctsReported": "1",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Webster",
+          "precinctsParticipating": "1",
+          "precinctsReported": "1",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Whitley",
+          "precinctsParticipating": "1",
+          "precinctsReported": "1",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Wolfe",
+          "precinctsParticipating": "4",
+          "precinctsReported": "4",
+          "precinctsReportingPercent": "100.00"
+        }
+      },
+      {
+        "type": "element",
+        "name": "County",
+        "attributes": {
+          "name": "Woodford",
+          "precinctsParticipating": "1",
+          "precinctsReported": "1",
+          "precinctsReportingPercent": "100.00"
+        }
+      }
+    ]
+  },
+  {
+    "type": "element",
+    "name": "Choice",
+    "attributes": {
+      "key": "1",
+      "text": "Donald J. TRUMP / Michael R. PENCE",
+      "party": "REP",
+      "totalVotes": "1326418"
+    },
+    "elements": [
+      {
+        "type": "element",
+        "name": "VoteType",
+        "attributes": {
+          "name": "Election Day",
+          "votes": "1326418"
+        },
+        "elements": [
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Adair",
+              "votes": "7276"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Allen",
+              "votes": "7586"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Anderson",
+              "votes": "9657"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Ballard",
+              "votes": "3356"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Barren",
+              "votes": "14654"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Bath",
+              "votes": "3986"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Bell",
+              "votes": "8140"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Boone",
+              "votes": "44811"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Bourbon",
+              "votes": "6190"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Boyd",
+              "votes": "14295"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Boyle",
+              "votes": "8872"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Bracken",
+              "votes": "3398"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Breathitt",
+              "votes": "4265"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Breckinridge",
+              "votes": "7701"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Bullitt",
+              "votes": "30708"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Butler",
+              "votes": "4960"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Caldwell",
+              "votes": "4906"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Calloway",
+              "votes": "11351"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Campbell",
+              "votes": "28482"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Carlisle",
+              "votes": "2159"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Carroll",
+              "votes": "2954"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Carter",
+              "votes": "8775"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Casey",
+              "votes": "6179"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Christian",
+              "votes": "15080"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Clark",
+              "votes": "11811"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Clay",
+              "votes": "6677"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Clinton",
+              "votes": "4280"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Crittenden",
+              "votes": "3451"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Cumberland",
+              "votes": "2769"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Daviess",
+              "votes": "31023"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Edmonson",
+              "votes": "4828"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Elliott",
+              "votes": "2246"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Estill",
+              "votes": "5100"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Fayette",
+              "votes": "58845"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Fleming",
+              "votes": "5534"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Floyd",
+              "votes": "12250"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Franklin",
+              "votes": "12900"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Fulton",
+              "votes": "1605"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Gallatin",
+              "votes": "2955"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Garrard",
+              "votes": "6754"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Grant",
+              "votes": "8725"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Graves",
+              "votes": "13206"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Grayson",
+              "votes": "9453"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Green",
+              "votes": "4838"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Greenup",
+              "votes": "13064"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Hancock",
+              "votes": "3145"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Hardin",
+              "votes": "29832"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Harlan",
+              "votes": "9367"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Harrison",
+              "votes": "6334"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Hart",
+              "votes": "6345"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Henderson",
+              "votes": "12730"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Henry",
+              "votes": "5843"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Hickman",
+              "votes": "1714"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Hopkins",
+              "votes": "15757"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Jackson",
+              "votes": "5453"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Jefferson",
+              "votes": "150619"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Jessamine",
+              "votes": "17096"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Johnson",
+              "votes": "8450"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Kenton",
+              "votes": "48123"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Knott",
+              "votes": "4779"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Knox",
+              "votes": "11012"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Larue",
+              "votes": "5685"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Laurel",
+              "votes": "23234"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Lawrence",
+              "votes": "5633"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Lee",
+              "votes": "2159"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Leslie",
+              "votes": "4321"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Letcher",
+              "votes": "7226"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Lewis",
+              "votes": "4986"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Lincoln",
+              "votes": "8489"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Livingston",
+              "votes": "4010"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Logan",
+              "votes": "9067"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Lyon",
+              "votes": "3100"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Madison",
+              "votes": "27353"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Magoffin",
+              "votes": "4174"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Marion",
+              "votes": "6113"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Marshall",
+              "votes": "13297"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Martin",
+              "votes": "3496"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Mason",
+              "votes": "5477"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "McCracken",
+              "votes": "21820"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "McCreary",
+              "votes": "5664"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "McLean",
+              "votes": "3633"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Meade",
+              "votes": "10184"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Menifee",
+              "votes": "2311"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Mercer",
+              "votes": "8506"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Metcalfe",
+              "votes": "3959"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Monroe",
+              "votes": "4628"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Montgomery",
+              "votes": "8993"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Morgan",
+              "votes": "4297"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Muhlenberg",
+              "votes": "10496"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Nelson",
+              "votes": "15703"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Nicholas",
+              "votes": "2408"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Ohio",
+              "votes": "8582"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Oldham",
+              "votes": "22651"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Owen",
+              "votes": "4292"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Owsley",
+              "votes": "1670"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Pendleton",
+              "votes": "5515"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Perry",
+              "votes": "8118"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Pike",
+              "votes": "20279"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Powell",
+              "votes": "4041"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Pulaski",
+              "votes": "25441"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Robertson",
+              "votes": "884"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Rockcastle",
+              "votes": "6577"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Rowan",
+              "votes": "5994"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Russell",
+              "votes": "7506"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Scott",
+              "votes": "17764"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Shelby",
+              "votes": "15054"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Simpson",
+              "votes": "5888"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Spencer",
+              "votes": "8737"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Taylor",
+              "votes": "9376"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Todd",
+              "votes": "4060"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Trigg",
+              "votes": "5487"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Trimble",
+              "votes": "3227"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Union",
+              "votes": "4965"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Warren",
+              "votes": "31790"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Washington",
+              "votes": "4482"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Wayne",
+              "votes": "7430"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Webster",
+              "votes": "4506"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Whitley",
+              "votes": "12567"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Wolfe",
+              "votes": "2097"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Woodford",
+              "votes": "8362"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "element",
+    "name": "Choice",
+    "attributes": {
+      "key": "2",
+      "text": "Joseph R. BIDEN / Kamala D. HARRIS",
+      "party": "DEM",
+      "totalVotes": "772285"
+    },
+    "elements": [
+      {
+        "type": "element",
+        "name": "VoteType",
+        "attributes": {
+          "name": "Election Day",
+          "votes": "772285"
+        },
+        "elements": [
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Adair",
+              "votes": "1392"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Allen",
+              "votes": "1642"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Anderson",
+              "votes": "3347"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Ballard",
+              "votes": "825"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Barren",
+              "votes": "5127"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Bath",
+              "votes": "1573"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Bell",
+              "votes": "1789"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Boone",
+              "votes": "20897"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Bourbon",
+              "votes": "3296"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Boyd",
+              "votes": "7083"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Boyle",
+              "votes": "5298"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Bracken",
+              "votes": "800"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Breathitt",
+              "votes": "1301"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Breckinridge",
+              "votes": "2350"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Bullitt",
+              "votes": "10551"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Butler",
+              "votes": "1079"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Caldwell",
+              "votes": "1433"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Calloway",
+              "votes": "5794"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Campbell",
+              "votes": "19373"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Carlisle",
+              "votes": "463"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Carroll",
+              "votes": "1116"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Carter",
+              "votes": "2642"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Casey",
+              "votes": "918"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Christian",
+              "votes": "8296"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Clark",
+              "votes": "6004"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Clay",
+              "votes": "831"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Clinton",
+              "votes": "603"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Crittenden",
+              "votes": "731"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Cumberland",
+              "votes": "508"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Daviess",
+              "votes": "17283"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Edmonson",
+              "votes": "1227"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Elliott",
+              "votes": "712"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Estill",
+              "votes": "1355"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Fayette",
+              "votes": "90566"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Fleming",
+              "votes": "1474"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Floyd",
+              "votes": "3884"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Franklin",
+              "votes": "12650"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Fulton",
+              "votes": "791"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Gallatin",
+              "votes": "822"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Garrard",
+              "votes": "1830"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Grant",
+              "votes": "2205"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Graves",
+              "votes": "3559"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Grayson",
+              "votes": "2400"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Green",
+              "votes": "920"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Greenup",
+              "votes": "4873"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Hancock",
+              "votes": "1351"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Hardin",
+              "votes": "18101"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Harlan",
+              "votes": "1494"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Harrison",
+              "votes": "2400"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Hart",
+              "votes": "1908"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Henderson",
+              "votes": "7639"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Henry",
+              "votes": "2142"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Hickman",
+              "votes": "458"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Hopkins",
+              "votes": "5439"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Jackson",
+              "votes": "605"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Jefferson",
+              "votes": "228288"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Jessamine",
+              "votes": "8567"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Johnson",
+              "votes": "1608"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Kenton",
+              "votes": "32265"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Knott",
+              "votes": "1412"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Knox",
+              "votes": "2114"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Larue",
+              "votes": "1504"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Laurel",
+              "votes": "4474"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Lawrence",
+              "votes": "1238"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Lee",
+              "votes": "459"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Leslie",
+              "votes": "446"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Letcher",
+              "votes": "1799"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Lewis",
+              "votes": "823"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Lincoln",
+              "votes": "2254"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Livingston",
+              "votes": "939"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Logan",
+              "votes": "3094"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Lyon",
+              "votes": "1092"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Madison",
+              "votes": "15580"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Magoffin",
+              "votes": "1213"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Marion",
+              "votes": "2722"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Marshall",
+              "votes": "4071"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Martin",
+              "votes": "403"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Mason",
+              "votes": "2362"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "McCracken",
+              "votes": "11190"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "McCreary",
+              "votes": "725"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "McLean",
+              "votes": "1074"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Meade",
+              "votes": "3632"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Menifee",
+              "votes": "750"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Mercer",
+              "votes": "3033"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Metcalfe",
+              "votes": "975"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Monroe",
+              "votes": "657"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Montgomery",
+              "votes": "3630"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Morgan",
+              "votes": "1172"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Muhlenberg",
+              "votes": "3544"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Nelson",
+              "votes": "7188"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Nicholas",
+              "votes": "955"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Ohio",
+              "votes": "2404"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Oldham",
+              "votes": "14504"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Owen",
+              "votes": "1098"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Owsley",
+              "votes": "216"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Pendleton",
+              "votes": "1322"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Perry",
+              "votes": "2350"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Pike",
+              "votes": "4862"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Powell",
+              "votes": "1367"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Pulaski",
+              "votes": "5664"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Robertson",
+              "votes": "253"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Rockcastle",
+              "votes": "1134"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Rowan",
+              "votes": "3880"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Russell",
+              "votes": "1329"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Scott",
+              "votes": "10564"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Shelby",
+              "votes": "8076"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Simpson",
+              "votes": "2681"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Spencer",
+              "votes": "2530"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Taylor",
+              "votes": "2961"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Todd",
+              "votes": "1202"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Trigg",
+              "votes": "1791"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Trimble",
+              "votes": "1012"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Union",
+              "votes": "1529"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Warren",
+              "votes": "22477"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Washington",
+              "votes": "1644"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Wayne",
+              "votes": "1700"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Webster",
+              "votes": "1412"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Whitley",
+              "votes": "2552"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Wolfe",
+              "votes": "839"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Woodford",
+              "votes": "6530"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "element",
+    "name": "Choice",
+    "attributes": {
+      "key": "3",
+      "text": "Jo JORGENSEN / Jeremy \"Spike\" COHEN",
+      "party": "LIB",
+      "totalVotes": "26217"
+    },
+    "elements": [
+      {
+        "type": "element",
+        "name": "VoteType",
+        "attributes": {
+          "name": "Election Day",
+          "votes": "26217"
+        },
+        "elements": [
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Adair",
+              "votes": "60"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Allen",
+              "votes": "99"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Anderson",
+              "votes": "183"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Ballard",
+              "votes": "32"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Barren",
+              "votes": "201"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Bath",
+              "votes": "44"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Bell",
+              "votes": "78"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Boone",
+              "votes": "981"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Bourbon",
+              "votes": "106"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Boyd",
+              "votes": "287"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Boyle",
+              "votes": "210"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Bracken",
+              "votes": "27"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Breathitt",
+              "votes": "52"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Breckinridge",
+              "votes": "103"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Bullitt",
+              "votes": "563"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Butler",
+              "votes": "63"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Caldwell",
+              "votes": "58"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Calloway",
+              "votes": "227"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Campbell",
+              "votes": "763"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Carlisle",
+              "votes": "15"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Carroll",
+              "votes": "44"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Carter",
+              "votes": "107"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Casey",
+              "votes": "53"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Christian",
+              "votes": "348"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Clark",
+              "votes": "226"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Clay",
+              "votes": "40"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Clinton",
+              "votes": "30"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Crittenden",
+              "votes": "47"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Cumberland",
+              "votes": "21"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Daviess",
+              "votes": "670"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Edmonson",
+              "votes": "60"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Elliott",
+              "votes": "18"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Estill",
+              "votes": "64"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Fayette",
+              "votes": "2382"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Fleming",
+              "votes": "37"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Floyd",
+              "votes": "111"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Franklin",
+              "votes": "365"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Fulton",
+              "votes": "18"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Gallatin",
+              "votes": "58"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Garrard",
+              "votes": "86"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Grant",
+              "votes": "139"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Graves",
+              "votes": "187"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Grayson",
+              "votes": "85"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Green",
+              "votes": "29"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Greenup",
+              "votes": "178"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Hancock",
+              "votes": "67"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Hardin",
+              "votes": "753"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Harlan",
+              "votes": "81"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Harrison",
+              "votes": "85"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Hart",
+              "votes": "76"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Henderson",
+              "votes": "244"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Henry",
+              "votes": "86"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Hickman",
+              "votes": "21"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Hopkins",
+              "votes": "226"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Jackson",
+              "votes": "33"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Jefferson",
+              "votes": "4779"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Jessamine",
+              "votes": "447"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Johnson",
+              "votes": "77"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Kenton",
+              "votes": "1360"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Knott",
+              "votes": "28"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Knox",
+              "votes": "109"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Larue",
+              "votes": "86"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Laurel",
+              "votes": "282"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Lawrence",
+              "votes": "50"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Lee",
+              "votes": "25"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Leslie",
+              "votes": "23"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Letcher",
+              "votes": "69"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Lewis",
+              "votes": "61"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Lincoln",
+              "votes": "129"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Livingston",
+              "votes": "44"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Logan",
+              "votes": "145"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Lyon",
+              "votes": "25"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Madison",
+              "votes": "726"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Magoffin",
+              "votes": "40"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Marion",
+              "votes": "55"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Marshall",
+              "votes": "165"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Martin",
+              "votes": "17"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Mason",
+              "votes": "85"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "McCracken",
+              "votes": "376"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "McCreary",
+              "votes": "34"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "McLean",
+              "votes": "56"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Meade",
+              "votes": "235"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Menifee",
+              "votes": "24"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Mercer",
+              "votes": "140"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Metcalfe",
+              "votes": "56"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Monroe",
+              "votes": "30"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Montgomery",
+              "votes": "154"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Morgan",
+              "votes": "27"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Muhlenberg",
+              "votes": "138"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Nelson",
+              "votes": "268"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Nicholas",
+              "votes": "27"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Ohio",
+              "votes": "99"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Oldham",
+              "votes": "601"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Owen",
+              "votes": "46"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Owsley",
+              "votes": "6"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Pendleton",
+              "votes": "56"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Perry",
+              "votes": "98"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Pike",
+              "votes": "154"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Powell",
+              "votes": "67"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Pulaski",
+              "votes": "323"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Robertson",
+              "votes": "6"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Rockcastle",
+              "votes": "56"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Rowan",
+              "votes": "137"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Russell",
+              "votes": "84"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Scott",
+              "votes": "480"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Shelby",
+              "votes": "301"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Simpson",
+              "votes": "128"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Spencer",
+              "votes": "124"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Taylor",
+              "votes": "119"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Todd",
+              "votes": "58"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Trigg",
+              "votes": "75"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Trimble",
+              "votes": "60"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Union",
+              "votes": "67"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Warren",
+              "votes": "823"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Washington",
+              "votes": "72"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Wayne",
+              "votes": "69"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Webster",
+              "votes": "54"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Whitley",
+              "votes": "177"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Wolfe",
+              "votes": "21"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Woodford",
+              "votes": "237"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "element",
+    "name": "Choice",
+    "attributes": {
+      "key": "5",
+      "text": "Kanye WEST / Michelle TIDBALL",
+      "party": "IND",
+      "totalVotes": "6478"
+    },
+    "elements": [
+      {
+        "type": "element",
+        "name": "VoteType",
+        "attributes": {
+          "name": "Election Day",
+          "votes": "6478"
+        },
+        "elements": [
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Adair",
+              "votes": "25"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Allen",
+              "votes": "22"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Anderson",
+              "votes": "34"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Ballard",
+              "votes": "10"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Barren",
+              "votes": "52"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Bath",
+              "votes": "12"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Bell",
+              "votes": "30"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Boone",
+              "votes": "171"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Bourbon",
+              "votes": "31"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Boyd",
+              "votes": "55"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Boyle",
+              "votes": "63"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Bracken",
+              "votes": "11"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Breathitt",
+              "votes": "31"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Breckinridge",
+              "votes": "24"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Bullitt",
+              "votes": "87"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Butler",
+              "votes": "8"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Caldwell",
+              "votes": "22"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Calloway",
+              "votes": "44"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Campbell",
+              "votes": "133"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Carlisle",
+              "votes": "1"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Carroll",
+              "votes": "13"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Carter",
+              "votes": "45"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Casey",
+              "votes": "12"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Christian",
+              "votes": "95"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Clark",
+              "votes": "53"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Clay",
+              "votes": "23"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Clinton",
+              "votes": "10"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Crittenden",
+              "votes": "7"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Cumberland",
+              "votes": "7"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Daviess",
+              "votes": "168"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Edmonson",
+              "votes": "10"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Elliott",
+              "votes": "9"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Estill",
+              "votes": "16"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Fayette",
+              "votes": "562"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Fleming",
+              "votes": "16"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Floyd",
+              "votes": "69"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Franklin",
+              "votes": "89"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Fulton",
+              "votes": "2"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Gallatin",
+              "votes": "3"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Garrard",
+              "votes": "25"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Grant",
+              "votes": "20"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Graves",
+              "votes": "36"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Grayson",
+              "votes": "33"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Green",
+              "votes": "18"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Greenup",
+              "votes": "28"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Hancock",
+              "votes": "14"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Hardin",
+              "votes": "151"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Harlan",
+              "votes": "16"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Harrison",
+              "votes": "14"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Hart",
+              "votes": "22"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Henderson",
+              "votes": "50"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Henry",
+              "votes": "19"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Hickman",
+              "votes": "2"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Hopkins",
+              "votes": "63"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Jackson",
+              "votes": "15"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Jefferson",
+              "votes": "1658"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Jessamine",
+              "votes": "92"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Johnson",
+              "votes": "31"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Kenton",
+              "votes": "225"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Knott",
+              "votes": "15"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Knox",
+              "votes": "32"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Larue",
+              "votes": "19"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Laurel",
+              "votes": "55"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Lawrence",
+              "votes": "20"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Lee",
+              "votes": "5"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Leslie",
+              "votes": "12"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Letcher",
+              "votes": "28"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Lewis",
+              "votes": "6"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Lincoln",
+              "votes": "23"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Livingston",
+              "votes": "6"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Logan",
+              "votes": "22"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Lyon",
+              "votes": "7"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Madison",
+              "votes": "140"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Magoffin",
+              "votes": "10"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Marion",
+              "votes": "24"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Marshall",
+              "votes": "44"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Martin",
+              "votes": "8"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Mason",
+              "votes": "19"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "McCracken",
+              "votes": "92"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "McCreary",
+              "votes": "8"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "McLean",
+              "votes": "11"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Meade",
+              "votes": "33"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Menifee",
+              "votes": "12"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Mercer",
+              "votes": "40"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Metcalfe",
+              "votes": "12"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Monroe",
+              "votes": "10"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Montgomery",
+              "votes": "41"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Morgan",
+              "votes": "21"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Muhlenberg",
+              "votes": "34"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Nelson",
+              "votes": "45"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Nicholas",
+              "votes": "3"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Ohio",
+              "votes": "29"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Oldham",
+              "votes": "113"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Owen",
+              "votes": "10"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Owsley",
+              "votes": "3"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Pendleton",
+              "votes": "18"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Perry",
+              "votes": "28"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Pike",
+              "votes": "47"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Powell",
+              "votes": "16"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Pulaski",
+              "votes": "78"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Robertson",
+              "votes": "2"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Rockcastle",
+              "votes": "13"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Rowan",
+              "votes": "31"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Russell",
+              "votes": "11"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Scott",
+              "votes": "90"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Shelby",
+              "votes": "73"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Simpson",
+              "votes": "17"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Spencer",
+              "votes": "21"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Taylor",
+              "votes": "35"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Todd",
+              "votes": "19"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Trigg",
+              "votes": "8"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Trimble",
+              "votes": "10"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Union",
+              "votes": "9"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Warren",
+              "votes": "184"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Washington",
+              "votes": "11"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Wayne",
+              "votes": "29"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Webster",
+              "votes": "16"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Whitley",
+              "votes": "34"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Wolfe",
+              "votes": "9"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Woodford",
+              "votes": "50"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "element",
+    "name": "Choice",
+    "attributes": {
+      "key": "4",
+      "text": "Brock PIERCE / Karla BALLARD",
+      "party": "IND",
+      "totalVotes": "3598"
+    },
+    "elements": [
+      {
+        "type": "element",
+        "name": "VoteType",
+        "attributes": {
+          "name": "Election Day",
+          "votes": "3598"
+        },
+        "elements": [
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Adair",
+              "votes": "10"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Allen",
+              "votes": "14"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Anderson",
+              "votes": "19"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Ballard",
+              "votes": "2"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Barren",
+              "votes": "21"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Bath",
+              "votes": "12"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Bell",
+              "votes": "7"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Boone",
+              "votes": "93"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Bourbon",
+              "votes": "20"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Boyd",
+              "votes": "21"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Boyle",
+              "votes": "24"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Bracken",
+              "votes": "8"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Breathitt",
+              "votes": "12"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Breckinridge",
+              "votes": "19"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Bullitt",
+              "votes": "55"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Butler",
+              "votes": "12"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Caldwell",
+              "votes": "9"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Calloway",
+              "votes": "27"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Campbell",
+              "votes": "82"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Carlisle",
+              "votes": "0"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Carroll",
+              "votes": "8"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Carter",
+              "votes": "16"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Casey",
+              "votes": "9"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Christian",
+              "votes": "44"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Clark",
+              "votes": "34"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Clay",
+              "votes": "19"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Clinton",
+              "votes": "9"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Crittenden",
+              "votes": "6"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Cumberland",
+              "votes": "4"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Daviess",
+              "votes": "96"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Edmonson",
+              "votes": "6"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Elliott",
+              "votes": "10"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Estill",
+              "votes": "3"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Fayette",
+              "votes": "309"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Fleming",
+              "votes": "5"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Floyd",
+              "votes": "37"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Franklin",
+              "votes": "55"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Fulton",
+              "votes": "5"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Gallatin",
+              "votes": "11"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Garrard",
+              "votes": "8"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Grant",
+              "votes": "17"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Graves",
+              "votes": "30"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Grayson",
+              "votes": "12"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Green",
+              "votes": "7"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Greenup",
+              "votes": "33"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Hancock",
+              "votes": "10"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Hardin",
+              "votes": "104"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Harlan",
+              "votes": "13"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Harrison",
+              "votes": "20"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Hart",
+              "votes": "18"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Henderson",
+              "votes": "25"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Henry",
+              "votes": "17"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Hickman",
+              "votes": "4"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Hopkins",
+              "votes": "24"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Jackson",
+              "votes": "7"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Jefferson",
+              "votes": "749"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Jessamine",
+              "votes": "49"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Johnson",
+              "votes": "26"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Kenton",
+              "votes": "135"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Knott",
+              "votes": "17"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Knox",
+              "votes": "6"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Larue",
+              "votes": "7"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Laurel",
+              "votes": "52"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Lawrence",
+              "votes": "14"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Lee",
+              "votes": "11"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Leslie",
+              "votes": "9"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Letcher",
+              "votes": "13"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Lewis",
+              "votes": "7"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Lincoln",
+              "votes": "18"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Livingston",
+              "votes": "4"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Logan",
+              "votes": "18"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Lyon",
+              "votes": "4"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Madison",
+              "votes": "104"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Magoffin",
+              "votes": "9"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Marion",
+              "votes": "14"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Marshall",
+              "votes": "24"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Martin",
+              "votes": "6"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Mason",
+              "votes": "15"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "McCracken",
+              "votes": "43"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "McCreary",
+              "votes": "4"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "McLean",
+              "votes": "8"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Meade",
+              "votes": "26"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Menifee",
+              "votes": "5"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Mercer",
+              "votes": "16"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Metcalfe",
+              "votes": "10"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Monroe",
+              "votes": "5"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Montgomery",
+              "votes": "19"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Morgan",
+              "votes": "18"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Muhlenberg",
+              "votes": "17"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Nelson",
+              "votes": "41"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Nicholas",
+              "votes": "3"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Ohio",
+              "votes": "13"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Oldham",
+              "votes": "67"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Owen",
+              "votes": "10"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Owsley",
+              "votes": "0"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Pendleton",
+              "votes": "14"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Perry",
+              "votes": "12"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Pike",
+              "votes": "26"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Powell",
+              "votes": "14"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Pulaski",
+              "votes": "31"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Robertson",
+              "votes": "1"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Rockcastle",
+              "votes": "3"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Rowan",
+              "votes": "16"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Russell",
+              "votes": "9"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Scott",
+              "votes": "52"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Shelby",
+              "votes": "38"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Simpson",
+              "votes": "18"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Spencer",
+              "votes": "17"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Taylor",
+              "votes": "19"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Todd",
+              "votes": "12"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Trigg",
+              "votes": "14"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Trimble",
+              "votes": "10"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Union",
+              "votes": "6"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Warren",
+              "votes": "77"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Washington",
+              "votes": "14"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Wayne",
+              "votes": "12"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Webster",
+              "votes": "3"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Whitley",
+              "votes": "17"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Wolfe",
+              "votes": "13"
+            }
+          },
+          {
+            "type": "element",
+            "name": "County",
+            "attributes": {
+              "name": "Woodford",
+              "votes": "32"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

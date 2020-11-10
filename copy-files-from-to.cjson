@@ -29,6 +29,11 @@
             "to": "dump/iowa/vote-count/iowa.zip"
         },
         {
+            // https://results.enr.clarityelections.com/KY/106379/web.264614/#/summary
+            "from": "https://results.enr.clarityelections.com//KY//106379/270707/reports/detailxml.zip",
+            "to": "dump/kentucky/vote-count/kentucky.zip"
+        },
+        {
             // https://mielections.us/election/results/2020GEN_CENR.html
             "from": "https://mielections.us/election/results/DATA/2020GEN_MI_CENR_BY_COUNTY.xls",
             "to": "dump/michigan/vote-count/michigan.xls"

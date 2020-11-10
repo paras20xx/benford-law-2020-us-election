@@ -1,6 +1,9 @@
-module.exports = function (input, { voteTypeIndex = 0, limitCandidates = Infinity }) {
+module.exports = function (input, { sliceArray = 0, voteTypeIndex = 0, limitCandidates = Infinity }) {
     let output = JSON.parse(JSON.stringify(input));
-    output = output.slice(1);
+
+    if (sliceArray) {
+        output = output.slice(sliceArray);
+    }
 
     const contestants = [];
     for (const item of output) {

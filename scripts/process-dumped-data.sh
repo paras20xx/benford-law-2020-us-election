@@ -21,6 +21,15 @@ set -x
 ./node_modules/.bin/csvtojson --flatKeys=true --delimiter=auto ./dump/michigan/vote-count/michigan.xls > ./dump/michigan/vote-count/michigan_parsing.json
 
 
+cd ./dump/colorado/vote-count/
+rm -f colorado.xml
+unzip colorado.zip
+mv detail.xml colorado.xml
+../../../node_modules/.bin/xml-js colorado.xml --spaces 4 --out colorado_converted.json
+jq '.elements[1].elements[5].elements' colorado_converted.json > colorado_parsing.json
+cd ../../../
+
+
 cd ./dump/georgia/vote-count/
 rm -f georgia.xml
 unzip georgia.zip
@@ -39,10 +48,10 @@ jq '.elements[1].elements[5].elements' iowa_converted.json > iowa_parsing.json
 cd ../../../
 
 
-cd ./dump/colorado/vote-count/
-rm -f colorado.xml
-unzip colorado.zip
-mv detail.xml colorado.xml
-../../../node_modules/.bin/xml-js colorado.xml --spaces 4 --out colorado_converted.json
-jq '.elements[1].elements[5].elements' colorado_converted.json > colorado_parsing.json
+cd ./dump/kentucky/vote-count/
+rm -f kentucky.xml
+unzip kentucky.zip
+mv detail.xml kentucky.xml
+../../../node_modules/.bin/xml-js kentucky.xml --spaces 4 --out kentucky_converted.json
+jq '.elements[1].elements[5].elements' kentucky_converted.json > kentucky_parsing.json
 cd ../../../

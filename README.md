@@ -121,7 +121,7 @@ npm start # This would generate graphs from the processed data
 
 ## Iowa
 
-## Iowa - Election day votes
+### Iowa - Election day votes
 <img width="838" alt="Iowa" src="dump/iowa/vote-count/iowa-election-day-votes-graph.png">
 
 <details>
@@ -129,6 +129,9 @@ npm start # This would generate graphs from the processed data
   <p><img width="838" alt="Iowa - Absentee votes" src="dump/iowa/vote-count/iowa-absentee-votes-graph.png"></p>
 </details>
 
+
+## Kentucky - Election day votes
+<img width="838" alt="Kentucky" src="dump/kentucky/vote-count/kentucky-election-day-votes-graph.png">
 
 
 ## Washington

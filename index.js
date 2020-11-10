@@ -135,6 +135,7 @@ const configsForLocations = [
                 {
                     converter: 'converter_1',
                     options: {
+                        sliceArray: 1,
                         voteTypeIndex: 0,
                         limitCandidates: 4
                     }
@@ -154,6 +155,7 @@ const configsForLocations = [
                 {
                     converter: 'converter_1',
                     options: {
+                        sliceArray: 1,
                         voteTypeIndex: 0
                     }
                 }
@@ -171,6 +173,7 @@ const configsForLocations = [
                 {
                     converter: 'converter_1',
                     options: {
+                        sliceArray: 1,
                         voteTypeIndex: 1
                     }
                 }
@@ -188,6 +191,7 @@ const configsForLocations = [
                 {
                     converter: 'converter_1',
                     options: {
+                        sliceArray: 1,
                         voteTypeIndex: 2
                     }
                 }
@@ -205,6 +209,7 @@ const configsForLocations = [
                 {
                     converter: 'converter_1',
                     options: {
+                        sliceArray: 1,
                         voteTypeIndex: 2
                     }
                 }
@@ -224,6 +229,7 @@ const configsForLocations = [
                 {
                     converter: 'converter_1',
                     options: {
+                        sliceArray: 1,
                         voteTypeIndex: 0
                     }
                 }
@@ -241,6 +247,7 @@ const configsForLocations = [
                 {
                     converter: 'converter_1',
                     options: {
+                        sliceArray: 1,
                         voteTypeIndex: 1
                     }
                 }
@@ -250,6 +257,26 @@ const configsForLocations = [
         jsonFilePath: './dump/iowa/vote-count/iowa-absentee-votes.json',
         limitCandidates: 2,
         outputGraphPath: path.join(__dirname, 'dump', 'iowa', 'vote-count', 'iowa-absentee-votes-graph.png')
+    },
+
+
+    {
+        mapJson: {
+            input: './dump/kentucky/vote-count/kentucky_parsing.json',
+            mappers: [
+                {
+                    converter: 'converter_1',
+                    options: {
+                        sliceArray: 1,
+                        voteTypeIndex: 0
+                    }
+                }
+            ],
+            output: './dump/kentucky/vote-count/kentucky-election-day-votes.json'
+        },
+        jsonFilePath: './dump/kentucky/vote-count/kentucky-election-day-votes.json',
+        limitCandidates: 2,
+        outputGraphPath: path.join(__dirname, 'dump', 'kentucky', 'vote-count', 'kentucky-election-day-votes-graph.png')
     },
 ];
 
