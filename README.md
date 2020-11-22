@@ -52,6 +52,10 @@ npm start # This would generate graphs from the processed data
   <summary>Chicago - Base 9</summary>
   <p><img width="838" alt="Chicago - Base 9" src="dump/chicago/vote-count/chicago-graph-base-9.png"></p>
 </details>
+<details>
+  <summary>Chicago - Second Digit</summary>
+  <p><img width="838" alt="Chicago - Second Digit" src="dump/chicago/vote-count/chicago-graph-second-digit.png"></p>
+</details>
 
 
 ## Milwaukee, Wisconsin (Sample size: 478)
@@ -84,6 +88,10 @@ npm start # This would generate graphs from the processed data
 <details>
   <summary>Milwaukee - Base 9</summary>
   <p><img width="838" alt="Milwaukee - Base 9" src="dump/milwaukee/vote-count/milwaukee-graph-base-9.png"></p>
+</details>
+<details>
+  <summary>Milwaukee - Second Digit</summary>
+  <p><img width="838" alt="Milwaukee - Second Digit" src="dump/milwaukee/vote-count/milwaukee-graph-second-digit.png"></p>
 </details>
 
 
@@ -119,10 +127,17 @@ npm start # This would generate graphs from the processed data
   <summary>San Francisco - Base 9</summary>
   <p><img width="838" alt="San Francisco - Base 9" src="dump/san-francisco/vote-count/san-francisco-graph-base-9.png"></p>
 </details>
-
+<details>
+  <summary>San Francisco - Second Digit</summary>
+  <p><img width="838" alt="San Francisco - Second Digit" src="dump/san-francisco/vote-count/san-francisco-graph-second-digit.png"></p>
+</details>
 
 ## Washington (Sample size: 4834)
 <img width="838" alt="Washington" src="dump/washington/vote-count/washington-graph.png">
+<details>
+  <summary>Washington - Second Digit</summary>
+  <p><img width="838" alt="Washington - Second Digit" src="dump/washington/vote-count/washington-graph-second-digit.png"></p>
+</details>
 
 
 ## Georgia (Sample size: 159)

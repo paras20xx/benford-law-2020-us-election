@@ -283,7 +283,7 @@ let configsForLocations = [
 
 
     {
-        only: true,
+        // only: true,
         mapJson: {
             input: './dump/san-francisco/vote-count/san-francisco_converted.json',
             mappers: [
@@ -369,245 +369,301 @@ if (configsForLocationsContainsOnly) {
     });
 }
 
-const fromBase = 3;
-const toBase = 10;
+const doCalculations = function (useBenfordLawForDigit = 1) {
+    let fromBase;
+    let toBase;
+    if (useBenfordLawForDigit === 2) {
+        fromBase = 10;
+        toBase = 10;
+    } else {
+        fromBase = 3;
+        toBase = 10;
+    }
 
-for (let base = fromBase; base <= toBase; base++) {
-    for (const configForLocation of configsForLocations) {
-        const limitCandidates = configForLocation.limitCandidates || Infinity;
-        if (configForLocation.mapJson) {
-            let inputJson = require(configForLocation.mapJson.input);
+    let startFromDigit;
+    if (useBenfordLawForDigit === 2) {
+        startFromDigit = 0;
+    } else {
+        startFromDigit = 1;
+    }
 
-            for (const mapper of configForLocation.mapJson.mappers) {
-                if (mapper.filterOutRowsWithoutField) {
-                    inputJson = inputJson.filter(function (entry) {
-                        if (entry[mapper.filterOutRowsWithoutField]) {
-                            return true;
-                        }
-                        return false;
-                    });
-                }
-                if (mapper.filterInRowsWithNumberLikeData) {
-                    inputJson = inputJson.filter(function (entry) {
-                        if (!isNaN(parseInt(entry[mapper.filterInRowsWithNumberLikeData], 10))) {
-                            return true;
-                        }
-                        return false;
-                    });
-                }
-                if (mapper.fieldsToDelete) {
-                    inputJson = inputJson.map(function (item) {
-                        for (const fieldToDelete of mapper.fieldsToDelete) {
-                            delete item[fieldToDelete];
-                        }
-                        return item;
-                    });
-                }
-                if (mapper.renameFields) {
-                    inputJson = inputJson.map(function (item) {
-                        for (const renameField of mapper.renameFields) {
-                            item[renameField.to] = item[renameField.from];
-                            delete item[renameField.from];
-                        }
-                        return item;
-                    });
-                }
-                if (mapper.converter === 'converter_1') {
-                    inputJson = converter_1(inputJson, mapper.options);
-                } else if (mapper.converter === 'converter_2') {
-                    inputJson = converter_2(inputJson, mapper.options);
-                } else if (mapper.converter === 'converter_3') {
-                    inputJson = converter_3(inputJson, mapper.options);
-                } else if (mapper.converter === 'converter_4') {
-                    inputJson = converter_4(inputJson, mapper.options);
-                } else if (mapper.converter === 'converter_5') {
-                    inputJson = converter_5(inputJson, mapper.options);
-                }
-            }
+    for (let base = fromBase; base <= toBase; base++) {
+        for (const configForLocation of configsForLocations) {
+            const limitCandidates = configForLocation.limitCandidates || Infinity;
+            if (configForLocation.mapJson) {
+                let inputJson = JSON.parse(JSON.stringify(require(configForLocation.mapJson.input)));
 
-            let str = '';
-
-            str += '[\n';
-            const arr = [];
-            for (const entry of inputJson) {
-                arr.push(JSON.stringify(entry));
-            }
-            str += arr.join(',\n');
-            str += '\n]';
-
-            // TODO: Move JSON computations and file write operation outside the for loop (and remove the following if condition).
-            if (base === fromBase) {
-                fs.writeFileSync(
-                    path.resolve(__dirname, configForLocation.mapJson.output),
-                    str
-                );
-            }
-        }
-
-        let voteCountEntriesForLocation = require(configForLocation.jsonFilePath);
-
-        voteCountEntriesForLocation = voteCountEntriesForLocation.map(function (item) {
-            if (configForLocation.fieldsToDelete) {
-                for (const fieldToDelete of configForLocation.fieldsToDelete) {
-                    delete item[fieldToDelete];
-                }
-            }
-            return item;
-        });
-
-        const contestants = {};
-        for (const voteCountEntryForLocation of voteCountEntriesForLocation) {
-            for (const contestant in voteCountEntryForLocation) {
-                if (typeof contestants[contestant] === 'undefined') {
-                    contestants[contestant] = 0;
-                }
-                contestants[contestant]++;
-            }
-        }
-        let contestantsArray = Object.keys(contestants);
-        if (limitCandidates) {
-            contestantsArray = contestantsArray.slice(0, limitCandidates);
-        }
-
-        console.log('\nContestants and the instances of their entries (their count should all be the same):');
-        console.log(contestants);
-
-        const benfordDistribution = {
-            '_0': 0,
-        };
-        for (let i = 1; i <= base - 1; i++) {
-            benfordDistribution['_' + i] = logForBase(i + 1, base) - logForBase(i, base);
-        }
-
-        const intialDistribution = {
-            '_0': 0,
-        };
-        for (let i = 1; i <= base - 1; i++) {
-            intialDistribution['_' + i] = 0;
-        }
-
-        const distributions = JSON.parse(JSON.stringify(contestants));
-
-        for (const contestant in contestants) {
-            const distributionForContestant = JSON.parse(JSON.stringify(intialDistribution));
-
-            for (const voteCountEntryForLocation of voteCountEntriesForLocation) {
-                const voteCountForContestant = (parseInt(voteCountEntryForLocation[contestant], 10)).toString(base);
-                let firstDigitAsString = '_' + String(voteCountForContestant).substring(0, 1);
-                distributionForContestant[firstDigitAsString]++;
-            }
-
-            distributions[contestant] = distributionForContestant;
-        }
-
-        console.log('\nDistributions:');
-        console.log(distributions);
-        console.log('');
-
-        const width = 838;
-        const height = 419;
-        const chartCallback = (ChartJS) => {
-
-            // Global config example: https://www.chartjs.org/docs/latest/configuration/
-            ChartJS.defaults.global.elements.rectangle.borderWidth = 2;
-            // Global plugin example: https://www.chartjs.org/docs/latest/developers/plugins.html
-            ChartJS.plugins.register({
-                // plugin implementation
-            });
-            // New chart type example: https://www.chartjs.org/docs/latest/developers/charts.html
-            ChartJS.controllers.MyType = ChartJS.DatasetController.extend({
-                // chart implementation
-            });
-        };
-        const canvasRenderService = new CanvasRenderService(width, height, chartCallback);
-
-        // https://github.com/davidbau/seedrandom
-        const seededRandom = new seedrandom('this-is-a-seed-string_100000000');
-
-        // https://stackoverflow.com/questions/23095637/how-do-you-get-random-rgb-in-javascript/23095818#23095818
-        function random_rgba() {
-            var o = Math.round, r = seededRandom, s = 255;
-            return 'rgba(' + o(r()*s) + ',' + o(r()*s) + ',' + o(r()*s) + ',' + 1 + ')';
-        }
-
-        (async () => {
-            const configuration = {
-                type: 'line',
-                data: {
-                    labels: (function () {
-                        const arr = [];
-                        for (let i = 1; i <= base - 1; i++) {
-                            arr.push('' + i);
-                        }
-                        return arr;
-                    }()),
-                    datasets: (function () {
-                        const output = [];
-
-                        const multiplier = voteCountEntriesForLocation.length;
-
-                        output.push({
-                            label: 'Ideal',
-                            data: (function () {
-                                const arr = [];
-                                for (let i = 1; i <= base - 1; i++) {
-                                    arr.push(multiplier * benfordDistribution['_' + i]);
-                                }
-                                return arr;
-                            }()),
-                            borderColor: (function () {
-                                const arr = [];
-                                for (let i = 1; i <= base - 1; i++) {
-                                    arr.push('rgba(255, 0, 0, 1)');
-                                }
-                                return arr;
-                            }())
+                for (const mapper of configForLocation.mapJson.mappers) {
+                    if (mapper.filterOutRowsWithoutField) {
+                        inputJson = inputJson.filter(function (entry) {
+                            if (entry[mapper.filterOutRowsWithoutField]) {
+                                return true;
+                            }
+                            return false;
                         });
+                    }
+                    if (mapper.filterInRowsWithNumberLikeData) {
+                        inputJson = inputJson.filter(function (entry) {
+                            if (!isNaN(parseInt(entry[mapper.filterInRowsWithNumberLikeData], 10))) {
+                                return true;
+                            }
+                            return false;
+                        });
+                    }
+                    if (mapper.fieldsToDelete) {
+                        inputJson = inputJson.map(function (item) {
+                            for (const fieldToDelete of mapper.fieldsToDelete) {
+                                delete item[fieldToDelete];
+                            }
+                            return item;
+                        });
+                    }
+                    if (mapper.renameFields) {
+                        inputJson = inputJson.map(function (item) {
+                            for (const renameField of mapper.renameFields) {
+                                item[renameField.to] = item[renameField.from];
+                                delete item[renameField.from];
+                            }
+                            return item;
+                        });
+                    }
+                    if (mapper.converter === 'converter_1') {
+                        inputJson = converter_1(inputJson, mapper.options);
+                    } else if (mapper.converter === 'converter_2') {
+                        inputJson = converter_2(inputJson, mapper.options);
+                    } else if (mapper.converter === 'converter_3') {
+                        inputJson = converter_3(inputJson, mapper.options);
+                    } else if (mapper.converter === 'converter_4') {
+                        inputJson = converter_4(inputJson, mapper.options);
+                    } else if (mapper.converter === 'converter_5') {
+                        inputJson = converter_5(inputJson, mapper.options);
+                    }
+                }
 
-                        for (const contestant of contestantsArray) {
-                            const distributionForContestant = distributions[contestant];
+                let str = '';
+
+                str += '[\n';
+                const arr = [];
+                for (const entry of inputJson) {
+                    arr.push(JSON.stringify(entry));
+                }
+                str += arr.join(',\n');
+                str += '\n]';
+
+                // TODO: Move JSON computations and file write operation outside the for loop (and remove the following if condition).
+                if (base === fromBase) {
+                    fs.writeFileSync(
+                        path.resolve(__dirname, configForLocation.mapJson.output),
+                        str
+                    );
+                }
+            }
+
+            let voteCountEntriesForLocation = JSON.parse(JSON.stringify(require(configForLocation.jsonFilePath)));
+
+            voteCountEntriesForLocation = voteCountEntriesForLocation.map(function (item) {
+                if (configForLocation.fieldsToDelete) {
+                    for (const fieldToDelete of configForLocation.fieldsToDelete) {
+                        delete item[fieldToDelete];
+                    }
+                }
+                return item;
+            });
+
+            const contestants = {};
+            for (const voteCountEntryForLocation of voteCountEntriesForLocation) {
+                for (const contestant in voteCountEntryForLocation) {
+                    if (typeof contestants[contestant] === 'undefined') {
+                        contestants[contestant] = 0;
+                    }
+                    contestants[contestant]++;
+                }
+            }
+            let contestantsArray = Object.keys(contestants);
+            if (limitCandidates) {
+                contestantsArray = contestantsArray.slice(0, limitCandidates);
+            }
+
+            console.log('\nContestants and the instances of their entries (their count should all be the same):');
+            console.log(contestants);
+
+            let benfordDistribution;
+            if (useBenfordLawForDigit === 2) {
+                benfordDistribution = {
+                    '_0': 11.97 / 100,
+                    '_1': 11.39 / 100,
+                    '_2': 10.88 / 100,
+                    '_3': 10.43 / 100,
+                    '_4': 10.03 / 100,
+                    '_5': 9.67 / 100,
+                    '_6': 9.34 / 100,
+                    '_7': 9.04 / 100,
+                    '_8': 8.76 / 100,
+                    '_9': 8.50 / 100
+                };
+            } else {
+                benfordDistribution = {
+                    '_0': 0,
+                };
+                for (let i = 1; i <= base - 1; i++) {
+                    benfordDistribution['_' + i] = logForBase(i + 1, base) - logForBase(i, base);
+                }
+            }
+
+            const intialDistribution = {
+                '_0': 0,
+            };
+            for (let i = startFromDigit; i <= base - 1; i++) {
+                intialDistribution['_' + i] = 0;
+            }
+
+            const distributions = JSON.parse(JSON.stringify(contestants));
+
+            for (const contestant in contestants) {
+                const distributionForContestant = JSON.parse(JSON.stringify(intialDistribution));
+
+                for (const voteCountEntryForLocation of voteCountEntriesForLocation) {
+                    const voteCountForContestant = (parseInt(voteCountEntryForLocation[contestant], 10)).toString(base);
+
+                    if (useBenfordLawForDigit === 2) {
+                        let secondDigitAsString = '_' + String(voteCountForContestant).substring(1, 2);
+                        distributionForContestant[secondDigitAsString]++;
+                    } else {
+                        let firstDigitAsString = '_' + String(voteCountForContestant).substring(0, 1);
+                        distributionForContestant[firstDigitAsString]++;
+                    }
+                }
+
+                distributions[contestant] = distributionForContestant;
+            }
+
+            console.log('\nDistributions:');
+            console.log(distributions);
+            console.log('');
+
+            const width = 838;
+            const height = 419;
+            const chartCallback = (ChartJS) => {
+
+                // Global config example: https://www.chartjs.org/docs/latest/configuration/
+                ChartJS.defaults.global.elements.rectangle.borderWidth = 2;
+                // Global plugin example: https://www.chartjs.org/docs/latest/developers/plugins.html
+                ChartJS.plugins.register({
+                    // plugin implementation
+                });
+                // New chart type example: https://www.chartjs.org/docs/latest/developers/charts.html
+                ChartJS.controllers.MyType = ChartJS.DatasetController.extend({
+                    // chart implementation
+                });
+            };
+            const canvasRenderService = new CanvasRenderService(width, height, chartCallback);
+
+            // https://github.com/davidbau/seedrandom
+            const seededRandom = new seedrandom('this-is-a-seed-string_100000000');
+
+            // https://stackoverflow.com/questions/23095637/how-do-you-get-random-rgb-in-javascript/23095818#23095818
+            function random_rgba() {
+                var o = Math.round, r = seededRandom, s = 255;
+                return 'rgba(' + o(r()*s) + ',' + o(r()*s) + ',' + o(r()*s) + ',' + 1 + ')';
+            }
+
+            (async () => {
+                const configuration = {
+                    type: 'line',
+                    // https://stackoverflow.com/questions/41879459/chartjs-beginatzero-min-max-doesnt-work/53437851#53437851
+                    options: {
+                        scales: {
+                            yAxes: [{
+                                display: true,
+                                ticks: {
+                                    beginAtZero: true,
+                                    min: 0
+                                }
+                            }]
+                        }
+                    },
+                    data: {
+                        labels: (function () {
+                            const arr = [];
+                            for (let i = startFromDigit; i <= base - 1; i++) {
+                                arr.push('' + i);
+                            }
+                            return arr;
+                        }()),
+                        datasets: (function () {
+                            const output = [];
+
+                            const multiplier = voteCountEntriesForLocation.length;
+
                             output.push({
-                                label: contestant,
+                                label: 'Ideal',
                                 data: (function () {
                                     const arr = [];
-                                    for (let i = 1; i <= base - 1; i++) {
-                                        arr.push(distributionForContestant['_' + i]);
+                                    for (let i = startFromDigit; i <= base - 1; i++) {
+                                        arr.push(multiplier * benfordDistribution['_' + i]);
                                     }
                                     return arr;
                                 }()),
                                 borderColor: (function () {
                                     const arr = [];
-                                    for (let i = 1; i <= base - 1; i++) {
-                                        arr.push(random_rgba());
+                                    for (let i = startFromDigit; i <= base - 1; i++) {
+                                        arr.push('rgba(255, 0, 0, 1)');
                                     }
                                     return arr;
                                 }())
                             });
-                        }
 
-                        return output;
-                    }())
+                            for (const contestant of contestantsArray) {
+                                const distributionForContestant = distributions[contestant];
+                                output.push({
+                                    label: contestant,
+                                    data: (function () {
+                                        const arr = [];
+                                        for (let i = startFromDigit; i <= base - 1; i++) {
+                                            arr.push(distributionForContestant['_' + i]);
+                                        }
+                                        return arr;
+                                    }()),
+                                    borderColor: (function () {
+                                        const arr = [];
+                                        for (let i = startFromDigit; i <= base - 1; i++) {
+                                            arr.push(random_rgba());
+                                        }
+                                        return arr;
+                                    }())
+                                });
+                            }
+
+                            return output;
+                        }())
+                    }
+                };
+                const image = await canvasRenderService.renderToBuffer(configuration);
+                const dataUrl = await canvasRenderService.renderToDataURL(configuration);
+                const stream = canvasRenderService.renderToStream(configuration);
+
+                let filePath = configForLocation.outputGraphPath;
+                if (useBenfordLawForDigit === 2) {
+                    filePath = filePath.replace(/\.png$/, `-second-digit.png`);
                 }
-            };
-            const image = await canvasRenderService.renderToBuffer(configuration);
-            const dataUrl = await canvasRenderService.renderToDataURL(configuration);
-            const stream = canvasRenderService.renderToStream(configuration);
-
-            let filePath = configForLocation.outputGraphPath;
-            if (base !== 10) {
-                filePath = filePath.replace(/\.png$/, `-base-${base}.png`);
-            }
-            if (base === 10) {
-                console.log(`(Sample size: ${voteCountEntriesForLocation.length})`);
-            }
-            try {
-                fs.writeFileSync(filePath, image);
-            } catch (e) {
-                console.log(e);
-                throw e;
-            }
-            console.log(`File written to: ${path.relative(process.cwd(), filePath)}`);
-            console.log('');
-        })();
+                if (base !== 10) {
+                    filePath = filePath.replace(/\.png$/, `-base-${base}.png`);
+                }
+                if (base === 10) {
+                    console.log(`(Sample size: ${voteCountEntriesForLocation.length})`);
+                }
+                try {
+                    fs.writeFileSync(filePath, image);
+                } catch (e) {
+                    console.log(e);
+                    throw e;
+                }
+                console.log(`File written to: ${path.relative(process.cwd(), filePath)}`);
+                console.log('');
+            })();
+        }
     }
-}
+};
+
+doCalculations(1);
+doCalculations(2);
